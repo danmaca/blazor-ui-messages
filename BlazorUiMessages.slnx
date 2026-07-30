@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Blazor.UI.Localizer.Tests/Blazor.UI.Localizer.Tests.csproj" />
   <Project Path="Blazor.UI.Localizer/Blazor.UI.Localizer.csproj" Id="14a6ad20-0f61-4be0-8c66-56f7758812a5" />
 </Solution>

@@ -6,7 +6,7 @@ namespace Telerik.Blazor.UI
 {
 	public static class TextLocalizer
 	{
-		private const string ResourceBaseName = "Telerik.Blazor.UI.TelerikMessages.Messages";
+		private const string ResourceBaseName = "Telerik.Blazor.UI.Messages.TelerikMessages";
 
 		private static readonly ResourceManager ResourceManager =
 			new(ResourceBaseName, typeof(TextLocalizer).Assembly);
