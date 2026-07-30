@@ -1,64 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -132,6 +73,36 @@
   <data name="Aggregate_Sum" xml:space="preserve">
     <value>Součet</value>
   </data>
+  <data name="AIPrompt_OutputView_ButtonText" xml:space="preserve">
+    <value>Výstup</value>
+  </data>
+  <data name="AIPrompt_OutputView_Copy" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="AIPrompt_OutputView_Discard" xml:space="preserve">
+    <value>Zahodit</value>
+  </data>
+  <data name="AIPrompt_OutputView_PromptTitle" xml:space="preserve">
+    <value>Generovat s AI:</value>
+  </data>
+  <data name="AIPrompt_OutputView_Retry" xml:space="preserve">
+    <value>Zkusit znovu</value>
+  </data>
+  <data name="AIPrompt_PromptView_ButtonText" xml:space="preserve">
+    <value>Zeptat se AI</value>
+  </data>
+  <data name="AIPrompt_PromptView_Generate" xml:space="preserve">
+    <value>Genereovat</value>
+  </data>
+  <data name="AIPrompt_PromptView_PromptPlaceholder" xml:space="preserve">
+    <value>Požádej nebo generuj obsah s AI</value>
+  </data>
+  <data name="AIPrompt_PromptView_SuggestionHeader" xml:space="preserve">
+    <value>Návrhy dotazů</value>
+  </data>
+  <data name="AutoComplete_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
   <data name="AutoComplete_Clear" xml:space="preserve">
     <value>Vymazat</value>
   </data>
@@ -156,6 +127,75 @@
   <data name="Calendar_Today" xml:space="preserve">
     <value>Dnes</value>
   </data>
+  <data name="Carousel_Next" xml:space="preserve">
+    <value>Další</value>
+  </data>
+  <data name="Carousel_Previous" xml:space="preserve">
+    <value>Předchozí</value>
+  </data>
+  <data name="Chart_NoData" xml:space="preserve">
+    <value>Žádná data</value>
+  </data>
+  <data name="ColorAlpha_Label" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ColorBlue_Label" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ColorGradient_AlphaSlider_Label" xml:space="preserve">
+    <value>Alpha hodnota</value>
+  </data>
+  <data name="ColorGradient_AriaLabel" xml:space="preserve">
+    <value>Vybraná barva je {0}</value>
+  </data>
+  <data name="ColorGradient_HueSlider_Label" xml:space="preserve">
+    <value>Hue</value>
+  </data>
+  <data name="ColorGradient_ToggleButton" xml:space="preserve">
+    <value>Přepnout format</value>
+  </data>
+  <data name="ColorGreen_Label" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="ColorHex_Label" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="ColorHex_Placeholder" xml:space="preserve">
+    <value>Barva v HEX</value>
+  </data>
+  <data name="ColorPalette_AriaLabel" xml:space="preserve">
+    <value>Vybraná barva je {0}</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Použít</value>
+  </data>
+  <data name="ColorPicker_AriaLabel" xml:space="preserve">
+    <value>Vybraná barva je {0}</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="ColorPicker_ClearTitle" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
+  <data name="ColorPicker_CurrentColor" xml:space="preserve">
+    <value>Vybraná barva</value>
+  </data>
+  <data name="ColorPicker_GradientViewTitle" xml:space="preserve">
+    <value>Zobrazení detailní palety</value>
+  </data>
+  <data name="ColorPicker_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="ColorPicker_PaletteViewTitle" xml:space="preserve">
+    <value>Zobrazení palety</value>
+  </data>
+  <data name="ColorPicker_PreviewColor" xml:space="preserve">
+    <value>Náhled barvy</value>
+  </data>
+  <data name="ColorRed_Label" xml:space="preserve">
+    <value>R</value>
+  </data>
   <data name="ColumnMenu_Apply" xml:space="preserve">
     <value>Aplikovat</value>
   </data>
@@ -165,20 +205,47 @@
   <data name="ColumnMenu_Columns" xml:space="preserve">
     <value>Sloupce</value>
   </data>
+  <data name="ColumnMenu_FilterBy" xml:space="preserve">
+    <value>Filtrovat podle</value>
+  </data>
+  <data name="ColumnMenu_GroupBy" xml:space="preserve">
+    <value>Seskupit podle</value>
+  </data>
+  <data name="ColumnMenu_GroupColumn" xml:space="preserve">
+    <value>Seskupit sloupce</value>
+  </data>
   <data name="ColumnMenu_Lock" xml:space="preserve">
     <value>Zamknout</value>
+  </data>
+  <data name="ColumnMenu_ReorderNext" xml:space="preserve">
+    <value>Posunout na další</value>
+  </data>
+  <data name="ColumnMenu_ReorderPrevious" xml:space="preserve">
+    <value>Posunout na předchozí</value>
   </data>
   <data name="ColumnMenu_Reset" xml:space="preserve">
     <value>Reset</value>
   </data>
+  <data name="ColumnMenu_SetColumnPosition" xml:space="preserve">
+    <value>Nastavit pozici sloupce</value>
+  </data>
   <data name="ColumnMenu_SortAscending" xml:space="preserve">
     <value>Seřadit vzestupně</value>
+  </data>
+  <data name="ColumnMenu_SortBy" xml:space="preserve">
+    <value>Seřadit podle</value>
   </data>
   <data name="ColumnMenu_SortDescending" xml:space="preserve">
     <value>Seřadit sestupně</value>
   </data>
+  <data name="ColumnMenu_UngroupColumn" xml:space="preserve">
+    <value>Zrušit seskupení sloupců</value>
+  </data>
   <data name="ColumnMenu_Unlock" xml:space="preserve">
     <value>Odemknout</value>
+  </data>
+  <data name="ComboBox_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
   </data>
   <data name="ComboBox_Clear" xml:space="preserve">
     <value>Vymazat</value>
@@ -186,11 +253,35 @@
   <data name="ComboBox_NoData" xml:space="preserve">
     <value>Žádná data</value>
   </data>
+  <data name="ComboBox_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="ComboBox_Popup_AriaLabel" xml:space="preserve">
+    <value>Seznam možností</value>
+  </data>
+  <data name="DateInput_Clear" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
   <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
     <value>Formát data nelze přečíst. Zadejte prosím platné datum.</value>
   </data>
   <data name="DateInput_ValidationErrorMessage" xml:space="preserve">
     <value>Datum není platné.</value>
+  </data>
+  <data name="DatePicker_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="DatePicker_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="DatePicker_SetDate" xml:space="preserve">
+    <value>Nastavit datum</value>
+  </data>
+  <data name="DateRangePicker_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="DateRangePicker_ConfirmSelection" xml:space="preserve">
+    <value>Potvrdit volbu</value>
   </data>
   <data name="DateRangePicker_End" xml:space="preserve">
     <value>Konec</value>
@@ -204,6 +295,9 @@
   <data name="DateTimePicker_Date" xml:space="preserve">
     <value>Datum</value>
   </data>
+  <data name="DateTimePicker_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
   <data name="DateTimePicker_Set" xml:space="preserve">
     <value>Nastavit</value>
   </data>
@@ -213,11 +307,26 @@
   <data name="Dialog_Cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
   <data name="Dialog_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="DropDownList_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
   <data name="DropDownList_NoData" xml:space="preserve">
     <value>Žádná data</value>
+  </data>
+  <data name="DropDownList_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="DropZone_Hint" xml:space="preserve">
+    <value>Přetáhněte soubor pro nahrání</value>
+  </data>
+  <data name="DropZone_Note" xml:space="preserve">
+    <value></value>
   </data>
   <data name="Editor_AddColumnAfter" xml:space="preserve">
     <value>Přidat sloupec za</value>
@@ -233,6 +342,51 @@
   </data>
   <data name="Editor_AddRowBelow" xml:space="preserve">
     <value>Přidat řádek pod</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Fix" xml:space="preserve">
+    <value>Oprav případné chyby v následujícím textu, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Longer" xml:space="preserve">
+    <value>Prodlouž následující text, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Shorter" xml:space="preserve">
+    <value>Zkrať následující text, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Polish" xml:space="preserve">
+    <value>Vylepši formátování následujícího textu pro lepší čitelnost a jednotnost, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Rewrite" xml:space="preserve">
+    <value>Přeformuluj následující text, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Casual" xml:space="preserve">
+    <value>Změň tón následujícího textu tak, aby působil neformálněji, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Formal" xml:space="preserve">
+    <value>Změň tón následujícího textu tak, aby působil formálněji, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Friendly" xml:space="preserve">
+    <value>Změň tón následujícího textu tak, aby působil přátelštěji, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Neutral" xml:space="preserve">
+    <value>Změň tón následujícího textu tak, aby působil neutrálněji, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_English" xml:space="preserve">
+    <value>Přelož následující text do angličtiny, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_German" xml:space="preserve">
+    <value>Přelož následující text do němčiny, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_Spanish" xml:space="preserve">
+    <value>Přelož následující text do španělštiny, aniž bys změnil jeho původní význam a záměr. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Default_System_Prompt" xml:space="preserve">
+    <value>Jsi užitečný asistent, který pomáhá uživatelům s psaním a úpravou obsahu. Vyhýbej se škodlivým, nelegálním nebo nevhodným tématům. Vrať prostý řetězec. Nevypisuj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Insert" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Replace" xml:space="preserve">
+    <value>Nahradit</value>
   </data>
   <data name="Editor_AlignCenter" xml:space="preserve">
     <value>Vycentrovat text</value>
@@ -267,8 +421,14 @@
   <data name="Editor_DeleteRow" xml:space="preserve">
     <value>Smazat řádek</value>
   </data>
+  <data name="Editor_DeleteTable" xml:space="preserve">
+    <value>Smazat tabulku</value>
+  </data>
   <data name="Editor_DialogCancel" xml:space="preserve">
     <value>Zrušit</value>
+  </data>
+  <data name="Editor_DialogClose" xml:space="preserve">
+    <value>Zavřít</value>
   </data>
   <data name="Editor_DialogInsert" xml:space="preserve">
     <value>Vložit</value>
@@ -366,17 +526,146 @@
   <data name="Editor_Unlink" xml:space="preserve">
     <value>Odstranit odkaz</value>
   </data>
+  <data name="FileManager_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteText" xml:space="preserve">
+    <value>Opravdu chcete smazat tento soubor/tyto soubory?</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="FileManager_ContextMenu_Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="FileManager_ContextMenu_Download" xml:space="preserve">
+    <value>Stáhnout</value>
+  </data>
+  <data name="FileManager_ContextMenu_Rename" xml:space="preserve">
+    <value>Přejmenovat</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateCreated" xml:space="preserve">
+    <value>Datum vytvoření</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateModified" xml:space="preserve">
+    <value>Datum změny</value>
+  </data>
+  <data name="FileManager_DetailsPane_NoFileSelected" xml:space="preserve">
+    <value>Není vybrán žádný soubor</value>
+  </data>
+  <data name="FileManager_DetailsPane_Size" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="FileManager_DetailsPane_Type" xml:space="preserve">
+    <value>Typ souboru</value>
+  </data>
+  <data name="FileManager_FileView_Items" xml:space="preserve">
+    <value>položek</value>
+  </data>
+  <data name="FileManager_Grid_DateCreatedColumnTitle" xml:space="preserve">
+    <value>Datum vytvoření</value>
+  </data>
+  <data name="FileManager_Grid_FileSizeColumnTitle" xml:space="preserve">
+    <value>Velikost souboru</value>
+  </data>
+  <data name="FileManager_Grid_NameColumnTitle" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="FileManager_SearchBox_Placeholder" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="FileManager_SearchBox_Title" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="FileManager_ToolBar_CreateNewFolder" xml:space="preserve">
+    <value>Nová složka</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBy" xml:space="preserve">
+    <value>Seřadit podle</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateCreated" xml:space="preserve">
+    <value>Datum vytvoření</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateModified" xml:space="preserve">
+    <value>Datum změny</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByName" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBySize" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByType" xml:space="preserve">
+    <value>Typ souboru</value>
+  </data>
+  <data name="FileManager_ToolBar_Upload" xml:space="preserve">
+    <value>Nahrát</value>
+  </data>
+  <data name="FileManager_ToolBar_ViewDetails" xml:space="preserve">
+    <value>Zobrazit podrobnosti</value>
+  </data>
+  <data name="FileManager_UploadDialogCancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="FileManager_UploadDialogOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileManager_UploadDialogTitle" xml:space="preserve">
+    <value>Nahrát soubory</value>
+  </data>
+  <data name="FileSelect_DropZoneHint" xml:space="preserve">
+    <value>Přetáhněte soubory sem</value>
+  </data>
+  <data name="FileSelect_InvalidFileExtension" xml:space="preserve">
+    <value>Typ souboru není povolen.</value>
+  </data>
+  <data name="FileSelect_InvalidMaxFileSize" xml:space="preserve">
+    <value>Soubor je moc veliký.</value>
+  </data>
+  <data name="FileSelect_InvalidMinFileSize" xml:space="preserve">
+    <value>Soubor je moc malý.</value>
+  </data>
+  <data name="FileSelect_Remove" xml:space="preserve">
+    <value>Odstranit</value>
+  </data>
+  <data name="FileSelect_SelectFiles" xml:space="preserve">
+    <value>Vybrat soubory...</value>
+  </data>
+  <data name="Filter_AddExpression" xml:space="preserve">
+    <value>Přidat výraz</value>
+  </data>
+  <data name="Filter_AddGroup" xml:space="preserve">
+    <value>Přidat skupinu</value>
+  </data>
+  <data name="Filter_AdditionalOperator" xml:space="preserve">
+    <value>Další operátor</value>
+  </data>
+  <data name="Filter_AdditionalValue" xml:space="preserve">
+    <value>Další hodnota</value>
+  </data>
   <data name="Filter_All" xml:space="preserve">
     <value>(Vše)</value>
   </data>
   <data name="Filter_And" xml:space="preserve">
     <value>A</value>
   </data>
+  <data name="Filter_BooleanIsEqualTo" xml:space="preserve">
+    <value>se rovná</value>
+  </data>
+  <data name="Filter_BooleanIsNotEqualTo" xml:space="preserve">
+    <value>se nerovná</value>
+  </data>
   <data name="Filter_Cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
   <data name="Filter_Clear" xml:space="preserve">
     <value>Vymazat</value>
+  </data>
+  <data name="Filter_Clear_All" xml:space="preserve">
+    <value>Vymazat všechny filtry</value>
   </data>
   <data name="Filter_DateIsEqualTo" xml:space="preserve">
     <value>Rovná se</value>
@@ -414,8 +703,20 @@
   <data name="Filter_EnumIsNull" xml:space="preserve">
     <value>Je prázdný</value>
   </data>
+  <data name="Filter_Expression_Options" xml:space="preserve">
+    <value>Seznam operátorů</value>
+  </data>
   <data name="Filter_Filter" xml:space="preserve">
     <value>Filtr</value>
+  </data>
+  <data name="Filter_FilterLabel" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="Filter_FilterSettings" xml:space="preserve">
+    <value>Nastavení filtru</value>
+  </data>
+  <data name="Filter_Info" xml:space="preserve">
+    <value>Zobraz záznamy kde</value>
   </data>
   <data name="Filter_IsFalse" xml:space="preserve">
     <value>je nepravda</value>
@@ -450,8 +751,14 @@
   <data name="Filter_NumberIsNull" xml:space="preserve">
     <value>Nemá hodnotu</value>
   </data>
+  <data name="Filter_Operator" xml:space="preserve">
+    <value>operátor</value>
+  </data>
   <data name="Filter_Or" xml:space="preserve">
     <value>Nebo</value>
+  </data>
+  <data name="Filter_Remove" xml:space="preserve">
+    <value>Odstranit</value>
   </data>
   <data name="Filter_Search" xml:space="preserve">
     <value>Hledat</value>
@@ -467,6 +774,12 @@
   </data>
   <data name="Filter_StringDoesNotContain" xml:space="preserve">
     <value>Neobsahuje</value>
+  </data>
+  <data name="Filter_StringDoesNotEndWith" xml:space="preserve">
+    <value>Nekončí na</value>
+  </data>
+  <data name="Filter_StringDoesNotStartWith" xml:space="preserve">
+    <value>Nezačíná na</value>
   </data>
   <data name="Filter_StringEndsWith" xml:space="preserve">
     <value>Končí na</value>
@@ -498,17 +811,125 @@
   <data name="Filter_StringStartsWith" xml:space="preserve">
     <value>Začíná na</value>
   </data>
+  <data name="Filter_Value" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="FlatColorPicker_AriaLabel" xml:space="preserve">
+    <value>Aktuální barva je {0}</value>
+  </data>
   <data name="Form_Clear" xml:space="preserve">
     <value>Vymazat</value>
   </data>
   <data name="Form_Submit" xml:space="preserve">
     <value>Odeslat</value>
   </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>Den</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Vymazat</value>
+  </data>
+  <data name="Gantt_DialogClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Gantt_DialogMaximize" xml:space="preserve">
+    <value>Maximalizovat</value>
+  </data>
+  <data name="Gantt_DialogMinimize" xml:space="preserve">
+    <value>Minimalizovat</value>
+  </data>
+  <data name="Gantt_Editor_DependencyAdd" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="Gantt_Editor_DependencyName" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="Gantt_Editor_DependencyRemove" xml:space="preserve">
+    <value>Odstranit</value>
+  </data>
+  <data name="Gantt_Editor_DependencyType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
+    <value>Úkol</value>
+  </data>
+  <data name="Gantt_Editor_End" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="Gantt_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>Konec musí být po začátku.</value>
+  </data>
+  <data name="Gantt_Editor_General" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="Gantt_Editor_None" xml:space="preserve">
+    <value>-Žádný-</value>
+  </data>
+  <data name="Gantt_Editor_Other" xml:space="preserve">
+    <value>Ostatní</value>
+  </data>
+  <data name="Gantt_Editor_Parent" xml:space="preserve">
+    <value>Nadřazený</value>
+  </data>
+  <data name="Gantt_Editor_PercentComplete" xml:space="preserve">
+    <value>Hotovo</value>
+  </data>
+  <data name="Gantt_Editor_Predecessors" xml:space="preserve">
+    <value>Předchůdci</value>
+  </data>
+  <data name="Gantt_Editor_Start" xml:space="preserve">
+    <value>Začátek</value>
+  </data>
+  <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>Začátek musí být před koncem</value>
+  </data>
+  <data name="Gantt_Editor_Successors" xml:space="preserve">
+    <value>Následník</value>
+  </data>
+  <data name="Gantt_Editor_Title" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="Gantt_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>Název je povinný.</value>
+  </data>
+  <data name="Gantt_Month" xml:space="preserve">
+    <value>Měsíc</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="Gantt_Week" xml:space="preserve">
+    <value>Týden</value>
+  </data>
+  <data name="Gantt_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
+  <data name="Grid_CancelChanges" xml:space="preserve">
+    <value>Zrušit změny</value>
+  </data>
   <data name="Grid_CancelDelete" xml:space="preserve">
     <value>Zrušit</value>
+  </data>
+  <data name="Grid_CheckAll" xml:space="preserve">
+    <value>Zaškrtnout vše</value>
+  </data>
+  <data name="Grid_Columns" xml:space="preserve">
+    <value>Sloupce</value>
+  </data>
+  <data name="Grid_ColumnSettings" xml:space="preserve">
+    <value>Nastavení sloupců</value>
+  </data>
+  <data name="Grid_Confirmation" xml:space="preserve">
+    <value>Opravdu smazat tento záznam?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Smazat</value>
   </data>
   <data name="Grid_ConfirmDeleteCancel" xml:space="preserve">
     <value>Zrušit</value>
@@ -525,20 +946,74 @@
   <data name="Grid_Create" xml:space="preserve">
     <value>Přidat nový záznam</value>
   </data>
+  <data name="Grid_Csv" xml:space="preserve">
+    <value>Exportovat do CSV</value>
+  </data>
+  <data name="Grid_DataTable" xml:space="preserve">
+    <value>Tabulka dat</value>
+  </data>
   <data name="Grid_Delete" xml:space="preserve">
     <value>Vymazat</value>
+  </data>
+  <data name="Grid_Detail_Template_Collapse" xml:space="preserve">
+    <value>Skrýt podrobnosti</value>
+  </data>
+  <data name="Grid_Detail_Template_Expand" xml:space="preserve">
+    <value>Rozbalit podrobnosti</value>
+  </data>
+  <data name="Grid_DialogClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Grid_Done" xml:space="preserve">
+    <value>Hotovo</value>
   </data>
   <data name="Grid_DragItems" xml:space="preserve">
     <value>záznamy vybrány</value>
   </data>
+  <data name="Grid_DragRowLabel" xml:space="preserve">
+    <value>Přetáhnout řádek</value>
+  </data>
   <data name="Grid_Edit" xml:space="preserve">
     <value>Upravit</value>
+  </data>
+  <data name="Grid_Excel" xml:space="preserve">
+    <value>Exportovat do Exceluk</value>
+  </data>
+  <data name="Grid_Filter" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="Grid_FilterMenuSettings" xml:space="preserve">
+    <value>{0} nastavení filtru pro menu sloupce</value>
+  </data>
+  <data name="Grid_FilterRowLabel" xml:space="preserve">
+    <value>{0} filtr</value>
+  </data>
+  <data name="Grid_GroupHeaderLabel" xml:space="preserve">
+    <value>Záhlaví skupiny sloupců</value>
+  </data>
+  <data name="Grid_Lock" xml:space="preserve">
+    <value>Zamknout</value>
   </data>
   <data name="Grid_NoRecords" xml:space="preserve">
     <value>Nejsou k dispozici žádné záznamy.</value>
   </data>
+  <data name="Grid_Remove" xml:space="preserve">
+    <value>Odstranit</value>
+  </data>
+  <data name="Grid_SaveChanges" xml:space="preserve">
+    <value>Uložit změny</value>
+  </data>
   <data name="Grid_Search" xml:space="preserve">
     <value>Hledat...</value>
+  </data>
+  <data name="Grid_Select" xml:space="preserve">
+    <value>Vybrat</value>
+  </data>
+  <data name="Grid_SelectAllRows" xml:space="preserve">
+    <value>Vybrat všechny řádky</value>
+  </data>
+  <data name="Grid_SelectRow" xml:space="preserve">
+    <value>Vybrat žádek</value>
   </data>
   <data name="Grid_SortAscending" xml:space="preserve">
     <value>Seřadit vzestupně</value>
@@ -552,17 +1027,80 @@
   <data name="Grid_SortedDescending" xml:space="preserve">
     <value>Seřazeno sestupně</value>
   </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Apply" xml:space="preserve">
+    <value>Aplikovat</value>
+  </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Title" xml:space="preserve">
+    <value>AI asistent</value>
+  </data>
+  <data name="Grid_ToolbarLabel" xml:space="preserve">
+    <value>Panel nástrojů</value>
+  </data>
+  <data name="Grid_Unlock" xml:space="preserve">
+    <value>Odemknout</value>
+  </data>
   <data name="Grid_Update" xml:space="preserve">
     <value>Aktualizovat</value>
+  </data>
+  <data name="Group_Clear_All" xml:space="preserve">
+    <value>Zrušit seskupení</value>
   </data>
   <data name="Group_Empty" xml:space="preserve">
     <value>Přetáhněte záhlaví sloupce a pusťte jej sem, chcete-li seskupit podle tohoto sloupce</value>
   </data>
+  <data name="ListBox_NoData" xml:space="preserve">
+    <value>Žádná data nejsou k dispozici</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveDown" xml:space="preserve">
+    <value>Posunout dolů</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveUp" xml:space="preserve">
+    <value>Posunout nahoru</value>
+  </data>
+  <data name="ListBoxToolBarTool_Remove" xml:space="preserve">
+    <value>Odstranit</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllFrom" xml:space="preserve">
+    <value>Přesunout vše z</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllTo" xml:space="preserve">
+    <value>Přesunout vše do</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferFrom" xml:space="preserve">
+    <value>Přesunout z</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferTo" xml:space="preserve">
+    <value>Přesunout do</value>
+  </data>
+  <data name="MaskedTextBox_Clear" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
+  <data name="MultiSelect_Apply" xml:space="preserve">
+    <value>Použít</value>
+  </data>
+  <data name="MultiSelect_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
   <data name="MultiSelect_Clear" xml:space="preserve">
     <value>Vymazat</value>
   </data>
+  <data name="MultiSelect_ItemsSelected" xml:space="preserve">
+    <value>Vybráno {0} položek</value>
+  </data>
+  <data name="MultiSelect_MoreSelected" xml:space="preserve">
+    <value>Dalších vybraných: {0}</value>
+  </data>
   <data name="MultiSelect_NoData" xml:space="preserve">
     <value>Žádná data</value>
+  </data>
+  <data name="MultiSelect_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="MultiSelect_Use" xml:space="preserve">
+    <value>Aplikovat</value>
+  </data>
+  <data name="NumericTextBox_Clear" xml:space="preserve">
+    <value>Vyčistit</value>
   </data>
   <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
     <value>Snížit hodnotu</value>
@@ -603,14 +1141,173 @@
   <data name="Pager_Page" xml:space="preserve">
     <value>Stránka</value>
   </data>
+  <data name="Pager_PageDisplay" xml:space="preserve">
+    <value>Stránka {0}</value>
+  </data>
+  <data name="Pager_PageInputLabel" xml:space="preserve">
+    <value>Vyberte stránku</value>
+  </data>
   <data name="Pager_Previous" xml:space="preserve">
     <value>Přejít na předchozí stránku</value>
   </data>
   <data name="Pager_Refresh" xml:space="preserve">
     <value>Obnovit</value>
   </data>
+  <data name="Pager_WrapperLabel" xml:space="preserve">
+    <value>Navigace stránkami, stránka {0} z {1}</value>
+  </data>
+  <data name="PdfViewer_Annotations_Color" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogText" xml:space="preserve">
+    <value>Opravdu chcete smazat poznámku?</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogTitle" xml:space="preserve">
+    <value>Smazat poznámku</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogCancelButtonText" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogOkButtonText" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="PdfViewer_Annotations_FontSize" xml:space="preserve">
+    <value>Velikost písma</value>
+  </data>
+  <data name="PdfViewer_Annotations_FreeTextEditorPlaceholder" xml:space="preserve">
+    <value>Začněte psát</value>
+  </data>
+  <data name="PdfViewer_Annotations_TextStyle" xml:space="preserve">
+    <value>Styl textu</value>
+  </data>
+  <data name="PdfViewer_Document_AriaLabel" xml:space="preserve">
+    <value>Okno zobrazení dokumentu</value>
+  </data>
+  <data name="PdfViewer_DropZone_Hint" xml:space="preserve">
+    <value>Přetáhněte soubory sem a pusťte je pro nahrání</value>
+  </data>
+  <data name="PdfViewer_Search_Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="PdfViewer_Search_MatchCase" xml:space="preserve">
+    <value>Rozlišovat velikost písmen</value>
+  </data>
+  <data name="PdfViewer_Search_MatchesOf" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="PdfViewer_Search_NextMatch" xml:space="preserve">
+    <value>Další výskyt</value>
+  </data>
+  <data name="PdfViewer_Search_Placeholder" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="PdfViewer_Search_PreviousMatch" xml:space="preserve">
+    <value>Předchozí výskyt</value>
+  </data>
+  <data name="PdfViewer_SearchDialog_AriaLabel" xml:space="preserve">
+    <value>Dialog hledání</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Annotations" xml:space="preserve">
+    <value>Poznámky</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Download" xml:space="preserve">
+    <value>Stáhnout</value>
+  </data>
+  <data name="PdfViewer_ToolBar_FreeText" xml:space="preserve">
+    <value>Volný text</value>
+  </data>
+  <data name="PdfViewer_ToolBar_HideAnnotations" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Highlight" xml:space="preserve">
+    <value>Zvýraznit</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Panning" xml:space="preserve">
+    <value>Povolit posouvání</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Print" xml:space="preserve">
+    <value>Tisk</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Search" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
+  <data name="PdfViewer_ToolBar_TextSelection" xml:space="preserve">
+    <value>Povolit výběr</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomActualWidth" xml:space="preserve">
+    <value>Skutečná šířka</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomFitToPage" xml:space="preserve">
+    <value>Přizpůsobit stránce</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomFitToWidth" xml:space="preserve">
+    <value>Přizpůsobit šířce</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomIn" xml:space="preserve">
+    <value>Přiblížit</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomOut" xml:space="preserve">
+    <value>Oddálit</value>
+  </data>
+  <data name="PivotGrid_GrandTotal" xml:space="preserve">
+    <value>Celkový součet</value>
+  </data>
+  <data name="PivotGrid_IncludeFields" xml:space="preserve">
+    <value>Zahrnout pole</value>
+  </data>
+  <data name="PivotGrid_TotalValueFormat" xml:space="preserve">
+    <value>Celkem {0}</value>
+  </data>
+  <data name="PivotGrid_ValueTotalFormat" xml:space="preserve">
+    <value>{0} celkem</value>
+  </data>
+  <data name="PivotGridConfigurator_Apply" xml:space="preserve">
+    <value>Aplikovat</value>
+  </data>
+  <data name="PivotGridConfigurator_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="PivotGridConfigurator_Columns" xml:space="preserve">
+    <value>Sloupce</value>
+  </data>
+  <data name="PivotGridConfigurator_Fields" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToColumns" xml:space="preserve">
+    <value>Přesunout do sloupců</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToRows" xml:space="preserve">
+    <value>Přesunout do řádků</value>
+  </data>
+  <data name="PivotGridConfigurator_NoFields" xml:space="preserve">
+    <value>Vyberte některá pole pro zahájení nastavení</value>
+  </data>
+  <data name="PivotGridConfigurator_Rows" xml:space="preserve">
+    <value>Řádky</value>
+  </data>
+  <data name="PivotGridConfigurator_Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="PivotGridConfigurator_Values" xml:space="preserve">
+    <value>Hodnoty</value>
+  </data>
+  <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
+    <value>Změnit nastavení</value>
+  </data>
+  <data name="PopupList_AriaLabel" xml:space="preserve">
+    <value>Seznam možností</value>
+  </data>
+  <data name="Scheduler_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>Celý den</value>
+  </data>
+  <data name="Scheduler_AllEvents" xml:space="preserve">
+    <value>Všechny události</value>
   </data>
   <data name="Scheduler_Cancel" xml:space="preserve">
     <value>Zrušit</value>
@@ -627,11 +1324,17 @@
   <data name="Scheduler_ConfirmDeleteTitle" xml:space="preserve">
     <value>Smazat událost</value>
   </data>
+  <data name="Scheduler_Date_Column_Title" xml:space="preserve">
+    <value>Datum</value>
+  </data>
   <data name="Scheduler_Day" xml:space="preserve">
     <value>Den</value>
   </data>
   <data name="Scheduler_Delete" xml:space="preserve">
     <value>Smazat</value>
+  </data>
+  <data name="Scheduler_DialogClose" xml:space="preserve">
+    <value>Zavřít</value>
   </data>
   <data name="Scheduler_Editor_Description" xml:space="preserve">
     <value>Popis</value>
@@ -669,6 +1372,9 @@
   <data name="Scheduler_Editor_TitleRequiredValidationMessage" xml:space="preserve">
     <value>Název je povinný.</value>
   </data>
+  <data name="Scheduler_Event_Column_Title" xml:space="preserve">
+    <value>Událost</value>
+  </data>
   <data name="Scheduler_Month" xml:space="preserve">
     <value>Měsíc</value>
   </data>
@@ -677,6 +1383,9 @@
   </data>
   <data name="Scheduler_Next" xml:space="preserve">
     <value>Další</value>
+  </data>
+  <data name="Scheduler_No_Events_Text" xml:space="preserve">
+    <value>Žádné události</value>
   </data>
   <data name="Scheduler_Previous" xml:space="preserve">
     <value>Předchozí</value>
@@ -807,11 +1516,26 @@
   <data name="Scheduler_ShowWorkDay" xml:space="preserve">
     <value>Zobrazit otevírací dobu</value>
   </data>
+  <data name="Scheduler_Time_Column_Title" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Scheduler_Timeline" xml:space="preserve">
+    <value>Časová osa</value>
+  </data>
   <data name="Scheduler_Today" xml:space="preserve">
     <value>Dnes</value>
   </data>
   <data name="Scheduler_Week" xml:space="preserve">
     <value>Týden</value>
+  </data>
+  <data name="Signature_Clear" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
+  <data name="Signature_Maximize" xml:space="preserve">
+    <value>Maximalizovat</value>
+  </data>
+  <data name="Signature_Minimize" xml:space="preserve">
+    <value>Minimalizovat</value>
   </data>
   <data name="Slider_Decrease" xml:space="preserve">
     <value>Snížit</value>
@@ -819,11 +1543,316 @@
   <data name="Slider_Increase" xml:space="preserve">
     <value>Zvýšit</value>
   </data>
+  <data name="Sort_Clear_All" xml:space="preserve">
+    <value>Zrušit řazení</value>
+  </data>
+  <data name="SplitButton_Open" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="Spreadsheet_AddColumnLeft" xml:space="preserve">
+    <value>Přidat sloupec vlevo</value>
+  </data>
+  <data name="Spreadsheet_AddColumnRight" xml:space="preserve">
+    <value>Přidat sloupec vpravo</value>
+  </data>
+  <data name="Spreadsheet_AddRowAbove" xml:space="preserve">
+    <value>Přidat řádek nad</value>
+  </data>
+  <data name="Spreadsheet_AddRowBelow" xml:space="preserve">
+    <value>Přidat řádek pod</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Zarovnat dolů</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Zarovnat na střed</value>
+  </data>
+  <data name="Spreadsheet_AlignJustify" xml:space="preserve">
+    <value>Zarovnat do bloku</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Zarovnat vlevo</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Zarovnat na střed</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Zarovnat vpravo</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Zarovnat nahoru</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Barva pozadí</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Tučně</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Vyjmout</value>
+  </data>
+  <data name="Spreadsheet_DecreaseDecimal" xml:space="preserve">
+    <value>Snížit počet desetinných míst</value>
+  </data>
+  <data name="Spreadsheet_DefaultDownloadFileName" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Spreadsheet_DefaultSheetName" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Spreadsheet_DeleteColumn" xml:space="preserve">
+    <value>Smazat sloupec</value>
+  </data>
+  <data name="Spreadsheet_DeleteImage" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Spreadsheet_DeleteRow" xml:space="preserve">
+    <value>Smazat řádek</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorApplyButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorCloseButtonText" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorText" xml:space="preserve">
+    <value>&lt;p&gt;Pro provedení této akce potřebuje stránka přístup ke schránce.&lt;/p&gt;
+&lt;p&gt;Přejděte do bezpečnostních nastavení prohlížeče a povolte přístup ke schránce pro tuto stránku.&lt;/p&gt;
+&lt;p&gt;Případně použijte tyto klávesové zkratky:&lt;/p&gt;
+&lt;div&gt;Vyjmout = Ctrl/Cmd + X&lt;/div&gt;
+&lt;div&gt;Kopírovat = Ctrl/Cmd + C&lt;/div&gt;
+&lt;div&gt;Vložit = Ctrl/Cmd + V&lt;/div&gt;</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorTitle" xml:space="preserve">
+    <value>Žádný přístup ke schránce</value>
+  </data>
+  <data name="Spreadsheet_Dialog_Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetApplyButtonText" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetCancelButtonText" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetText" xml:space="preserve">
+    <value>Data listu budou smazána. Chcete pokračovat?</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetTitle" xml:space="preserve">
+    <value>Smazat list</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkApplyButtonText" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkCancelButtonText" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkInputPlaceholderText" xml:space="preserve">
+    <value>Text odkazu</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkLabelText" xml:space="preserve">
+    <value>Odkaz:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRemoveButtonText" xml:space="preserve">
+    <value>Odstranit odkaz</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRequiredFieldText" xml:space="preserve">
+    <value>Odkaz nesmí být prázdný.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkTitle" xml:space="preserve">
+    <value>Vložit odkaz</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetApplyButtonText" xml:space="preserve">
+    <value>Přejmenovat</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetButtonText" xml:space="preserve">
+    <value>Přejmenovat</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetCancelButtonText" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetErrorText" xml:space="preserve">
+    <value>List s tímto názvem již existuje. Zadejte prosím jiný název.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetLabelText" xml:space="preserve">
+    <value>Přejmenovat list na:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetPlaceholderText" xml:space="preserve">
+    <value>Název listu</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetRequiredFieldText" xml:space="preserve">
+    <value>Název listu nesmí být prázdný.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetTitle" xml:space="preserve">
+    <value>Přejmenovat list</value>
+  </data>
+  <data name="Spreadsheet_DownloadFile" xml:space="preserve">
+    <value>Stáhnout</value>
+  </data>
+  <data name="Spreadsheet_FontFamily" xml:space="preserve">
+    <value>Písmo</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Velikost písma</value>
+  </data>
+  <data name="Spreadsheet_FormulaInput" xml:space="preserve">
+    <value>Vstup vzorce</value>
+  </data>
+  <data name="Spreadsheet_GridLines" xml:space="preserve">
+    <value>Přepnout mřížku</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlign" xml:space="preserve">
+    <value>Vodorovné zarovnání</value>
+  </data>
+  <data name="Spreadsheet_IncreaseDecimal" xml:space="preserve">
+    <value>Zvýšit počet desetinných míst</value>
+  </data>
+  <data name="Spreadsheet_InsertImage" xml:space="preserve">
+    <value>Vložit obrázek</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Vložit odkaz</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>Kurzíva</value>
+  </data>
+  <data name="Spreadsheet_MergeAllCells" xml:space="preserve">
+    <value>Sloučit vše</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Sloučit buňky</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsHorizontally" xml:space="preserve">
+    <value>Sloučit vodorovně</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsVertically" xml:space="preserve">
+    <value>Sloučit svisle</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Pole názvu</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Formát čísla</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatAutomatic" xml:space="preserve">
+    <value>Automaticky</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatCurrency" xml:space="preserve">
+    <value>Měna</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDateTime" xml:space="preserve">
+    <value>Datum a čas</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDuration" xml:space="preserve">
+    <value>Doba trvání</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatFinancial" xml:space="preserve">
+    <value>Finanční</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatNumber" xml:space="preserve">
+    <value>Číslo</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatPercentage" xml:space="preserve">
+    <value>Procenta</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatTime" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Spreadsheet_OpenFile" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Opakovat</value>
+  </data>
+  <data name="Spreadsheet_SendImageToBack" xml:space="preserve">
+    <value>Do pozadí</value>
+  </data>
+  <data name="Spreadsheet_SendImageToFront" xml:space="preserve">
+    <value>Do popředí</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AddSheet" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AllSheets" xml:space="preserve">
+    <value>Všechny listy</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DeleteSheet" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DuplicateSheet" xml:space="preserve">
+    <value>Duplikovat</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_HideSheet" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetLeft" xml:space="preserve">
+    <value>Přesunout doleva</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetRight" xml:space="preserve">
+    <value>Přesunout doprava</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_RenameSheetButtonText" xml:space="preserve">
+    <value>Přejmenovat</value>
+  </data>
+  <data name="Spreadsheet_TextColor" xml:space="preserve">
+    <value>Barva textu</value>
+  </data>
+  <data name="Spreadsheet_TextWrap" xml:space="preserve">
+    <value>Zalamování textu</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FileMenu" xml:space="preserve">
+    <value>Soubor</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FormatMenu" xml:space="preserve">
+    <value>Formát</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_HomeMenu" xml:space="preserve">
+    <value>Domů</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_InsertMenu" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_ViewMenu" xml:space="preserve">
+    <value>Zobrazení</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Podtrhnout</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="Spreadsheet_UnmergeCells" xml:space="preserve">
+    <value>Oddělit</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlign" xml:space="preserve">
+    <value>Svislé zarovnání</value>
+  </data>
   <data name="Switch_OffLabel" xml:space="preserve">
     <value>Vypnuto</value>
   </data>
   <data name="Switch_OnLabel" xml:space="preserve">
     <value>Zapnuto</value>
+  </data>
+  <data name="TabStrip_ShowNextTabs" xml:space="preserve">
+    <value>Další záložka</value>
+  </data>
+  <data name="TabStrip_ShowPreviousTabs" xml:space="preserve">
+    <value>Předchozí záložka</value>
+  </data>
+  <data name="TextBox_Clear" xml:space="preserve">
+    <value>Vyčistit</value>
   </data>
   <data name="TimePicker_Cancel" xml:space="preserve">
     <value>Zrušit</value>
@@ -848,6 +1877,9 @@
   </data>
   <data name="TimePicker_Now" xml:space="preserve">
     <value>Teď</value>
+  </data>
+  <data name="TimePicker_Open" xml:space="preserve">
+    <value>Otevřít</value>
   </data>
   <data name="TimePicker_Quarter" xml:space="preserve">
     <value>Čtvrtletí</value>
@@ -891,6 +1923,9 @@
   <data name="TreeList_Delete" xml:space="preserve">
     <value>Smazat</value>
   </data>
+  <data name="TreeList_DialogClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
   <data name="TreeList_Edit" xml:space="preserve">
     <value>Upravit</value>
   </data>
@@ -899,6 +1934,12 @@
   </data>
   <data name="TreeList_Search" xml:space="preserve">
     <value>Hledat...</value>
+  </data>
+  <data name="TreeList_SelectAllRows" xml:space="preserve">
+    <value>Vyberte všechny řádky</value>
+  </data>
+  <data name="TreeList_SelectRow" xml:space="preserve">
+    <value>Vyberte řádek</value>
   </data>
   <data name="TreeList_SortedAscending" xml:space="preserve">
     <value>Seřazeno vzestupně</value>
@@ -914,6 +1955,9 @@
   </data>
   <data name="Upload_Clear" xml:space="preserve">
     <value>Vymazat</value>
+  </data>
+  <data name="Upload_DropZoneHint" xml:space="preserve">
+    <value>Pro nahrání přetáhněte soubor sem</value>
   </data>
   <data name="Upload_FileStatusFailed" xml:space="preserve">
     <value>Soubor se nepodařilo nahrát.</value>
@@ -936,17 +1980,35 @@
   <data name="Upload_InvalidMinFileSize" xml:space="preserve">
     <value>Soubor je moc malý.</value>
   </data>
+  <data name="Upload_Pause" xml:space="preserve">
+    <value>Pozastavit</value>
+  </data>
   <data name="Upload_Remove" xml:space="preserve">
     <value>Odstranit</value>
+  </data>
+  <data name="Upload_Resume" xml:space="preserve">
+    <value>Pokračovat</value>
   </data>
   <data name="Upload_Retry" xml:space="preserve">
     <value>Opakovat</value>
   </data>
+  <data name="Upload_SelectedFilesAriaLabel" xml:space="preserve">
+    <value>{0} soubor(ů) {1}. Stiskněte šipku dolů pro navigaci.</value>
+  </data>
+  <data name="Upload_SelectedState" xml:space="preserve">
+    <value>vybraný</value>
+  </data>
   <data name="Upload_SelectFiles" xml:space="preserve">
     <value>Vybrat soubory...</value>
   </data>
+  <data name="Upload_UploadedState" xml:space="preserve">
+    <value>nahraný</value>
+  </data>
   <data name="Upload_UploadFiles" xml:space="preserve">
     <value>Nahrát</value>
+  </data>
+  <data name="Validation_InvalidField" xml:space="preserve">
+    <value>{0} není platný údaj.</value>
   </data>
   <data name="Wizard_Done" xml:space="preserve">
     <value>Hotovo</value>
@@ -959,475 +2021,6 @@
   </data>
   <data name="Wizard_Previous" xml:space="preserve">
     <value>Předchozí</value>
-  </data>
-  <data name="Gantt_Day" xml:space="preserve">
-    <value>Den</value>
-  </data>
-  <data name="Gantt_Month" xml:space="preserve">
-    <value>Měsíc</value>
-  </data>
-  <data name="Gantt_Week" xml:space="preserve">
-    <value>Týden</value>
-  </data>
-  <data name="Gantt_Year" xml:space="preserve">
-    <value>Rok</value>
-  </data>
-  <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
-    <value>Úkol</value>
-  </data>
-  <data name="Gantt_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="Gantt_Delete" xml:space="preserve">
-    <value>Vymazat</value>
-  </data>
-  <data name="Gantt_Editor_End" xml:space="preserve">
-    <value>Konec</value>
-  </data>
-  <data name="Gantt_Editor_EndTimeValueValidationMessage" xml:space="preserve">
-    <value>Konec musí být po začátku.</value>
-  </data>
-  <data name="Gantt_Editor_PercentComplete" xml:space="preserve">
-    <value>Hotovo</value>
-  </data>
-  <data name="Gantt_Editor_Start" xml:space="preserve">
-    <value>Začátek</value>
-  </data>
-  <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
-    <value>Začátek musí být před koncem</value>
-  </data>
-  <data name="Gantt_Editor_Title" xml:space="preserve">
-    <value>Název</value>
-  </data>
-  <data name="Gantt_Editor_TitleRequiredValidationMessage" xml:space="preserve">
-    <value>Název je povinný.</value>
-  </data>
-  <data name="Gantt_Save" xml:space="preserve">
-    <value>Uložit</value>
-  </data>
-  <data name="Editor_DialogClose" xml:space="preserve">
-    <value>Zavřít</value>
-  </data>
-  <data name="Carousel_Next" xml:space="preserve">
-    <value>Další</value>
-  </data>
-  <data name="Carousel_Previous" xml:space="preserve">
-    <value>Předchozí</value>
-  </data>
-  <data name="Scheduler_Timeline" xml:space="preserve">
-    <value>Časová osa</value>
-  </data>
-  <data name="Scheduler_AllEvents" xml:space="preserve">
-    <value>Všechny události</value>
-  </data>
-  <data name="FileSelect_InvalidFileExtension" xml:space="preserve">
-    <value>Typ souboru není povolen.</value>
-  </data>
-  <data name="FileSelect_InvalidMaxFileSize" xml:space="preserve">
-    <value>Soubor je moc veliký.</value>
-  </data>
-  <data name="FileSelect_InvalidMinFileSize" xml:space="preserve">
-    <value>Soubor je moc malý.</value>
-  </data>
-  <data name="FileSelect_Remove" xml:space="preserve">
-    <value>Odstranit</value>
-  </data>
-  <data name="FileSelect_SelectFiles" xml:space="preserve">
-    <value>Vybrat soubory...</value>
-  </data>
-  <data name="AutoComplete_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="ColorAlpha_Label" xml:space="preserve">
-    <value>A</value>
-  </data>
-  <data name="ColorBlue_Label" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="ColorGradient_AlphaSlider_Label" xml:space="preserve">
-    <value>Alpha hodnota</value>
-  </data>
-  <data name="ColorGradient_HueSlider_Label" xml:space="preserve">
-    <value>Hue</value>
-  </data>
-  <data name="ColorGradient_ToggleButton" xml:space="preserve">
-    <value>Přepnout format</value>
-  </data>
-  <data name="ColorGreen_Label" xml:space="preserve">
-    <value>G</value>
-  </data>
-  <data name="ColorHex_Label" xml:space="preserve">
-    <value>HEX</value>
-  </data>
-  <data name="ColorHex_Placeholder" xml:space="preserve">
-    <value>Barva v HEX</value>
-  </data>
-  <data name="ColorPicker_Apply" xml:space="preserve">
-    <value>Použít</value>
-  </data>
-  <data name="ColorPicker_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="ColorPicker_ClearTitle" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="ColorPicker_CurrentColor" xml:space="preserve">
-    <value>Vybraná barva</value>
-  </data>
-  <data name="ColorPicker_GradientViewTitle" xml:space="preserve">
-    <value>Zobrazení detailní palety</value>
-  </data>
-  <data name="ColorPicker_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="ColorPicker_PaletteViewTitle" xml:space="preserve">
-    <value>Zobrazení palety</value>
-  </data>
-  <data name="ColorPicker_PreviewColor" xml:space="preserve">
-    <value>Náhled barvy</value>
-  </data>
-  <data name="ColorRed_Label" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="ComboBox_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="ComboBox_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="DateInput_Clear" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="DatePicker_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="DatePicker_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="DatePicker_SetDate" xml:space="preserve">
-    <value>Nastavit datum</value>
-  </data>
-  <data name="DateRangePicker_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="DateRangePicker_ConfirmSelection" xml:space="preserve">
-    <value>Potvrdit volbu</value>
-  </data>
-  <data name="DateTimePicker_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="Dialog_Close" xml:space="preserve">
-    <value>Zavřít</value>
-  </data>
-  <data name="DropDownList_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="DropDownList_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="Filter_AddExpression" xml:space="preserve">
-    <value>Přidat výraz</value>
-  </data>
-  <data name="Filter_AddGroup" xml:space="preserve">
-    <value>Přidat skupinu</value>
-  </data>
-  <data name="Filter_AdditionalOperator" xml:space="preserve">
-    <value>Další operátor</value>
-  </data>
-  <data name="Filter_AdditionalValue" xml:space="preserve">
-    <value>Další hodnota</value>
-  </data>
-  <data name="Filter_BooleanIsEqualTo" xml:space="preserve">
-    <value>se rovná</value>
-  </data>
-  <data name="Filter_BooleanIsNotEqualTo" xml:space="preserve">
-    <value>se nerovná</value>
-  </data>
-  <data name="Filter_FilterLabel" xml:space="preserve">
-    <value>Filtr</value>
-  </data>
-  <data name="Filter_FilterSettings" xml:space="preserve">
-    <value>Nastavení filtru</value>
-  </data>
-  <data name="Filter_Info" xml:space="preserve">
-    <value>Zobraz záznamy kde</value>
-  </data>
-  <data name="Filter_Operator" xml:space="preserve">
-    <value>operátor</value>
-  </data>
-  <data name="Filter_Remove" xml:space="preserve">
-    <value>Odstranit</value>
-  </data>
-  <data name="Filter_Value" xml:space="preserve">
-    <value>Hodnota</value>
-  </data>
-  <data name="Grid_CancelChanges" xml:space="preserve">
-    <value>Zrušit změny</value>
-  </data>
-  <data name="Grid_CheckAll" xml:space="preserve">
-    <value>Zaškrtnout vše</value>
-  </data>
-  <data name="Grid_Columns" xml:space="preserve">
-    <value>Sloupce</value>
-  </data>
-  <data name="Grid_ColumnSettings" xml:space="preserve">
-    <value>Nastavení sloupců</value>
-  </data>
-  <data name="Grid_Confirmation" xml:space="preserve">
-    <value>Opravdu smazat tento záznam?</value>
-  </data>
-  <data name="Grid_ConfirmDelete" xml:space="preserve">
-    <value>Smazat</value>
-  </data>
-  <data name="Grid_Csv" xml:space="preserve">
-    <value>Exportovat do CSV</value>
-  </data>
-  <data name="Grid_DataTable" xml:space="preserve">
-    <value>Tabulka dat</value>
-  </data>
-  <data name="Grid_DialogClose" xml:space="preserve">
-    <value>Zavřít</value>
-  </data>
-  <data name="Grid_Done" xml:space="preserve">
-    <value>Hotovo</value>
-  </data>
-  <data name="Grid_DragRowLabel" xml:space="preserve">
-    <value>Přetáhnout řádek</value>
-  </data>
-  <data name="Grid_Excel" xml:space="preserve">
-    <value>Exportovat do Exceluk</value>
-  </data>
-  <data name="Grid_Filter" xml:space="preserve">
-    <value>Filtr</value>
-  </data>
-  <data name="Grid_FilterMenuSettings" xml:space="preserve">
-    <value>{0} nastavení filtru pro menu sloupce</value>
-  </data>
-  <data name="Grid_FilterRowLabel" xml:space="preserve">
-    <value>{0} filtr</value>
-  </data>
-  <data name="Grid_GroupHeaderLabel" xml:space="preserve">
-    <value>Záhlaví skupiny sloupců</value>
-  </data>
-  <data name="Grid_Lock" xml:space="preserve">
-    <value>Zamknout</value>
-  </data>
-  <data name="Grid_Remove" xml:space="preserve">
-    <value>Odstranit</value>
-  </data>
-  <data name="Grid_SaveChanges" xml:space="preserve">
-    <value>Uložit změny</value>
-  </data>
-  <data name="Grid_Select" xml:space="preserve">
-    <value>Vybrat</value>
-  </data>
-  <data name="Grid_SelectAllRows" xml:space="preserve">
-    <value>Vybrat všechny řádky</value>
-  </data>
-  <data name="Grid_SelectRow" xml:space="preserve">
-    <value>Vybrat žádek</value>
-  </data>
-  <data name="Grid_ToolbarLabel" xml:space="preserve">
-    <value>Panel nástrojů</value>
-  </data>
-  <data name="Grid_Unlock" xml:space="preserve">
-    <value>Odemknout</value>
-  </data>
-  <data name="MaskedTextBox_Clear" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="MultiSelect_Apply" xml:space="preserve">
-    <value>Použít</value>
-  </data>
-  <data name="MultiSelect_Cancel" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
-  <data name="NumericTextBox_Clear" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="Pager_PageDisplay" xml:space="preserve">
-    <value>Stránka {0}</value>
-  </data>
-  <data name="Pager_PageInputLabel" xml:space="preserve">
-    <value>Vyberte stránku</value>
-  </data>
-  <data name="Scheduler_DialogClose" xml:space="preserve">
-    <value>Zavřít</value>
-  </data>
-  <data name="Signature_Clear" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="Signature_Maximize" xml:space="preserve">
-    <value>Maximalizovat</value>
-  </data>
-  <data name="Signature_Minimize" xml:space="preserve">
-    <value>Minimalizovat</value>
-  </data>
-  <data name="SplitButton_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="TextBox_Clear" xml:space="preserve">
-    <value>Vyčistit</value>
-  </data>
-  <data name="TabStrip_ShowNextTabs" xml:space="preserve">
-    <value>Další záložka</value>
-  </data>
-  <data name="TabStrip_ShowPreviousTabs" xml:space="preserve">
-    <value>Předchozí záložka</value>
-  </data>
-  <data name="TimePicker_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="TreeList_DialogClose" xml:space="preserve">
-    <value>Zavřít</value>
-  </data>
-  <data name="TreeList_SelectAllRows" xml:space="preserve">
-    <value>Vyberte všechny řádky</value>
-  </data>
-  <data name="TreeList_SelectRow" xml:space="preserve">
-    <value>Vyberte řádek</value>
-  </data>
-  <data name="Validation_InvalidField" xml:space="preserve">
-    <value>{0} není platný údaj.</value>
-  </data>
-  <data name="Upload_UploadedState" xml:space="preserve">
-    <value>nahraný</value>
-  </data>
-  <data name="Upload_SelectedState" xml:space="preserve">
-    <value>vybraný</value>
-  </data>
-  <data name="Upload_SelectedFilesAriaLabel" xml:space="preserve">
-    <value>{0} soubor(ů) {1}. Stiskněte šipku dolů pro navigaci.</value>
-  </data>
-  <data name="DropZone_Hint" xml:space="preserve">
-    <value>Přetáhněte soubor pro nahrání</value>
-  </data>
-  <data name="Upload_DropZoneHint" xml:space="preserve">
-    <value>Pro nahrání přetáhněte soubor sem</value>
-  </data>
-  <data name="FileSelect_DropZoneHint" xml:space="preserve">
-    <value>Přetáhněte soubory sem</value>
-  </data>
-  <data name="ColorGradient_AriaLabel" xml:space="preserve">
-    <value>Vybraná barva je {0}</value>
-  </data>
-  <data name="ColorPalette_AriaLabel" xml:space="preserve">
-    <value>Vybraná barva je {0}</value>
-  </data>
-  <data name="ColorPicker_AriaLabel" xml:space="preserve">
-    <value>Vybraná barva je {0}</value>
-  </data>
-  <data name="FlatColorPicker_AriaLabel" xml:space="preserve">
-    <value>Aktuální barva je {0}</value>
-  </data>
-  <data name="Filter_StringDoesNotEndWith" xml:space="preserve">
-    <value>Nekončí na</value>
-  </data>
-  <data name="Filter_StringDoesNotStartWith" xml:space="preserve">
-    <value>Nezačíná na</value>
-  </data>
-  <data name="ColumnMenu_GroupColumn" xml:space="preserve">
-    <value>Seskupit sloupce</value>
-  </data>
-  <data name="ColumnMenu_ReorderNext" xml:space="preserve">
-    <value>Posunout na další</value>
-  </data>
-  <data name="ColumnMenu_ReorderPrevious" xml:space="preserve">
-    <value>Posunout na předchozí</value>
-  </data>
-  <data name="ColumnMenu_UngroupColumn" xml:space="preserve">
-    <value>Zrušit seskupení sloupců</value>
-  </data>
-  <data name="ColumnMenu_SetColumnPosition" xml:space="preserve">
-    <value>Nastavit pozici sloupce</value>
-  </data>
-  <data name="Gantt_Editor_Successors" xml:space="preserve">
-    <value>Následník</value>
-  </data>
-  <data name="MultiSelect_ItemsSelected" xml:space="preserve">
-    <value>Vybráno {0} položek</value>
-  </data>
-  <data name="MultiSelect_MoreSelected" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Editor_DeleteTable" xml:space="preserve">
-    <value>Smazat tabulku</value>
-  </data>
-  <data name="ListBoxToolBarTool_MoveDown" xml:space="preserve">
-    <value>Posunout dolů</value>
-  </data>
-  <data name="ListBoxToolBarTool_MoveUp" xml:space="preserve">
-    <value>Posunout nahoru</value>
-  </data>
-  <data name="ListBoxToolBarTool_Remove" xml:space="preserve">
-    <value>Odstranit</value>
-  </data>
-  <data name="ListBoxToolBarTool_TransferAllFrom" xml:space="preserve">
-    <value>Přesunout vše z</value>
-  </data>
-  <data name="ListBoxToolBarTool_TransferAllTo" xml:space="preserve">
-    <value>Přesunout vše do</value>
-  </data>
-  <data name="ListBoxToolBarTool_TransferFrom" xml:space="preserve">
-    <value>Přesunout z</value>
-  </data>
-  <data name="ListBoxToolBarTool_TransferTo" xml:space="preserve">
-    <value>Přesunout do</value>
-  </data>
-  <data name="ListBox_NoData" xml:space="preserve">
-    <value>Žádná data nejsou k dispozici</value>
-  </data>
-  <data name="ComboBox_Popup_AriaLabel" xml:space="preserve">
-    <value>Seznam možností</value>
-  </data>
-  <data name="MultiSelect_Open" xml:space="preserve">
-    <value>Otevřít</value>
-  </data>
-  <data name="Filter_Expression_Options" xml:space="preserve">
-    <value>Seznam operátorů</value>
-  </data>
-  <data name="AIPrompt_OutputView_ButtonText" xml:space="preserve">
-    <value>Výstup</value>
-  </data>
-  <data name="AIPrompt_OutputView_Copy" xml:space="preserve">
-    <value>Kopírovat</value>
-  </data>
-  <data name="AIPrompt_OutputView_Retry" xml:space="preserve">
-    <value>Zkusit znovu</value>
-  </data>
-  <data name="AIPrompt_PromptView_ButtonText" xml:space="preserve">
-    <value>Zeptat se AI</value>
-  </data>
-  <data name="AIPrompt_PromptView_Generate" xml:space="preserve">
-    <value>Genereovat</value>
-  </data>
-  <data name="AIPrompt_PromptView_PromptPlaceholder" xml:space="preserve">
-    <value>Požádej nebo generuj obsah s AI</value>
-  </data>
-  <data name="AIPrompt_PromptView_SuggestionHeader" xml:space="preserve">
-    <value>Návrhy dotazů</value>
-  </data>
-  <data name="AIPrompt_OutputView_PromptTitle" xml:space="preserve">
-    <value>Generovat s AI:</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Spreadsheet_AddColumnLeft" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="Scheduler_Agenda" xml:space="preserve">
-    <value>Agenda</value>
-  </data>
-  <data name="Scheduler_Time_Column_Title" xml:space="preserve">
-    <value>Čas</value>
-  </data>
-  <data name="Scheduler_Date_Column_Title" xml:space="preserve">
-    <value>Datum</value>
-  </data>
-  <data name="Scheduler_Event_Column_Title" xml:space="preserve">
-    <value>Událost</value>
-  </data>
-  <data name="Scheduler_No_Events_Text" xml:space="preserve">
-    <value>Žádnéí události</value>
   </data>
   <data name="Editor_AddColumnLeft" xml:space="preserve">
     <value>Přidat sloupec vlevo</value>
