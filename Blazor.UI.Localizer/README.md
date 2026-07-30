@@ -23,7 +23,7 @@ If a key is missing for the current culture (and its parents), `GetText` returns
 
 ## Supported cultures
 
-Satellite resources are included for: `cs-CZ`, `da-DK`, `de-DE`, `fa-IR`, `fr-FR`, `hr-HR`, `it-IT`, `nl-BE`, `pt-BR`, `ru-RU`, `sl-SI`, `zh-CN`.
+Satellite resources are included for: `cs-CZ`, `da-DK`, `de-DE`, `el-GR`, `fa-IR`, `fr-FR`, `hr-HR`, `it-IT`, `nl-BE`, `pl-PL`, `pt-BR`, `ru-RU`, `sk-SK`, `sl-SI`, `zh-CN`.
 
 ## License
 

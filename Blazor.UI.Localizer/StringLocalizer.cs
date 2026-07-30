@@ -12,9 +12,9 @@ namespace Telerik.Blazor.UI
 			new(ResourceBaseName, typeof(TextLocalizer).Assembly);
 
 		// "{culture}|{key}" → resolved string (or key as fallback)
-		private static readonly ConcurrentDictionary<string, string> Cache = new(StringComparer.Ordinal);
+		private static readonly ConcurrentDictionary<string, string?> Cache = new(StringComparer.Ordinal);
 
-		public static string GetText(string key)
+		public static string? GetText(string key)
 		{
 			ArgumentException.ThrowIfNullOrEmpty(key);
 
@@ -23,7 +23,7 @@ namespace Telerik.Blazor.UI
 
 			return Cache.GetOrAdd(cacheKey, static (_, state) =>
 			{
-				return Resolve(state.Key, state.Culture) ?? state.Key;
+				return Resolve(state.Key, state.Culture);
 			}, (Key: key, Culture: culture));
 		}
 
