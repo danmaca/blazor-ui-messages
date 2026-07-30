@@ -29,6 +29,7 @@ public sealed class TextLocalizerTests : IDisposable
 	[InlineData("hr-HR", "Aggregate_Average", "Prosjek")]
 	[InlineData("zh-CN", "Aggregate_Average", "平均")]
 	[InlineData("fa-IR", "Aggregate_Average", "میانگین")]
+	[InlineData("sl-SI", "Aggregate_Average", "Povprečje")]
 	public void GetText_ReturnsLocalizedValue_ForCurrentUICulture(string culture, string key, string expected)
 	{
 		CultureInfo.CurrentUICulture = new CultureInfo(culture);

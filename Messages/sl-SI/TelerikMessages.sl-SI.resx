@@ -1,0 +1,2025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aggregate_Average" xml:space="preserve">
+    <value>Povprečje</value>
+  </data>
+  <data name="Aggregate_Count" xml:space="preserve">
+    <value>Število</value>
+  </data>
+  <data name="Aggregate_Max" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="Aggregate_Min" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="Aggregate_Sum" xml:space="preserve">
+    <value>Vsota</value>
+  </data>
+  <data name="AIPrompt_OutputView_ButtonText" xml:space="preserve">
+    <value>Izhod</value>
+  </data>
+  <data name="AIPrompt_OutputView_Copy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="AIPrompt_OutputView_Discard" xml:space="preserve">
+    <value>Zavrzi</value>
+  </data>
+  <data name="AIPrompt_OutputView_PromptTitle" xml:space="preserve">
+    <value>Ustvari z AI:</value>
+  </data>
+  <data name="AIPrompt_OutputView_Retry" xml:space="preserve">
+    <value>Poskusi znova</value>
+  </data>
+  <data name="AIPrompt_PromptView_ButtonText" xml:space="preserve">
+    <value>Vprašaj AI</value>
+  </data>
+  <data name="AIPrompt_PromptView_Generate" xml:space="preserve">
+    <value>Ustvari</value>
+  </data>
+  <data name="AIPrompt_PromptView_PromptPlaceholder" xml:space="preserve">
+    <value>Vprašajte ali ustvarite vsebino z AI</value>
+  </data>
+  <data name="AIPrompt_PromptView_SuggestionHeader" xml:space="preserve">
+    <value>Hitri predlogi</value>
+  </data>
+  <data name="AutoComplete_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="AutoComplete_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="AutoComplete_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="Calendar_Choose_Decade" xml:space="preserve">
+    <value>Izberite desetletje</value>
+  </data>
+  <data name="Calendar_Choose_Month" xml:space="preserve">
+    <value>Izberite mesec</value>
+  </data>
+  <data name="Calendar_Choose_Year" xml:space="preserve">
+    <value>Izberite leto</value>
+  </data>
+  <data name="Calendar_GoToNext" xml:space="preserve">
+    <value>Na naslednje obdobje</value>
+  </data>
+  <data name="Calendar_GoToPrevious" xml:space="preserve">
+    <value>Na prejšnje obdobje</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>Danes</value>
+  </data>
+  <data name="Carousel_Next" xml:space="preserve">
+    <value>Naslednje</value>
+  </data>
+  <data name="Carousel_Previous" xml:space="preserve">
+    <value>Prejšnje</value>
+  </data>
+  <data name="Chart_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="ColorAlpha_Label" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ColorBlue_Label" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ColorGradient_AlphaSlider_Label" xml:space="preserve">
+    <value>Vrednost drsnika Alpha</value>
+  </data>
+  <data name="ColorGradient_AriaLabel" xml:space="preserve">
+    <value>Trenutno izbrana barva je {0}</value>
+  </data>
+  <data name="ColorGradient_HueSlider_Label" xml:space="preserve">
+    <value>Vrednost drsnika Hue</value>
+  </data>
+  <data name="ColorGradient_ToggleButton" xml:space="preserve">
+    <value>Preklopi obliko.</value>
+  </data>
+  <data name="ColorGreen_Label" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="ColorHex_Label" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="ColorHex_Placeholder" xml:space="preserve">
+    <value>Hex barva</value>
+  </data>
+  <data name="ColorPalette_AriaLabel" xml:space="preserve">
+    <value>Trenutno izbrana barva je {0}</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="ColorPicker_AriaLabel" xml:space="preserve">
+    <value>Trenutno izbrana barva je {0}</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="ColorPicker_ClearTitle" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="ColorPicker_CurrentColor" xml:space="preserve">
+    <value>Trenutna barva</value>
+  </data>
+  <data name="ColorPicker_GradientViewTitle" xml:space="preserve">
+    <value>Izberi pogled preliva</value>
+  </data>
+  <data name="ColorPicker_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="ColorPicker_PaletteViewTitle" xml:space="preserve">
+    <value>Izberi pogled palete</value>
+  </data>
+  <data name="ColorPicker_PreviewColor" xml:space="preserve">
+    <value>Predogled barve</value>
+  </data>
+  <data name="ColorRed_Label" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="ColumnMenu_Apply" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="ColumnMenu_ColumnMenu" xml:space="preserve">
+    <value>Meni stolpca</value>
+  </data>
+  <data name="ColumnMenu_Columns" xml:space="preserve">
+    <value>Stolpci</value>
+  </data>
+  <data name="ColumnMenu_FilterBy" xml:space="preserve">
+    <value>Filtriraj po</value>
+  </data>
+  <data name="ColumnMenu_GroupBy" xml:space="preserve">
+    <value>Združi po</value>
+  </data>
+  <data name="ColumnMenu_GroupColumn" xml:space="preserve">
+    <value>Združi stolpec</value>
+  </data>
+  <data name="ColumnMenu_Lock" xml:space="preserve">
+    <value>Zakleni</value>
+  </data>
+  <data name="ColumnMenu_ReorderNext" xml:space="preserve">
+    <value>Premakni naprej</value>
+  </data>
+  <data name="ColumnMenu_ReorderPrevious" xml:space="preserve">
+    <value>Premakni nazaj</value>
+  </data>
+  <data name="ColumnMenu_Reset" xml:space="preserve">
+    <value>Ponastavi</value>
+  </data>
+  <data name="ColumnMenu_SetColumnPosition" xml:space="preserve">
+    <value>Nastavi položaj stolpca</value>
+  </data>
+  <data name="ColumnMenu_SortAscending" xml:space="preserve">
+    <value>Razvrsti naraščajoče</value>
+  </data>
+  <data name="ColumnMenu_SortBy" xml:space="preserve">
+    <value>Razvrsti po</value>
+  </data>
+  <data name="ColumnMenu_SortDescending" xml:space="preserve">
+    <value>Razvrsti padajoče</value>
+  </data>
+  <data name="ColumnMenu_UngroupColumn" xml:space="preserve">
+    <value>Razdruži stolpec</value>
+  </data>
+  <data name="ColumnMenu_Unlock" xml:space="preserve">
+    <value>Odkleni</value>
+  </data>
+  <data name="ComboBox_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="ComboBox_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="ComboBox_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="ComboBox_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="ComboBox_Popup_AriaLabel" xml:space="preserve">
+    <value>Seznam možnosti</value>
+  </data>
+  <data name="DateInput_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
+    <value>Oblike datuma ni mogoče razčleniti. Vnesite veljaven datum.</value>
+  </data>
+  <data name="DateInput_ValidationErrorMessage" xml:space="preserve">
+    <value>Datum ni veljaven.</value>
+  </data>
+  <data name="DatePicker_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="DatePicker_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="DatePicker_SetDate" xml:space="preserve">
+    <value>Nastavi datum</value>
+  </data>
+  <data name="DateRangePicker_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="DateRangePicker_ConfirmSelection" xml:space="preserve">
+    <value>Potrdi izbiro</value>
+  </data>
+  <data name="DateRangePicker_End" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="DateRangePicker_Start" xml:space="preserve">
+    <value>Začetek</value>
+  </data>
+  <data name="DateTimePicker_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="DateTimePicker_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DateTimePicker_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="DateTimePicker_Set" xml:space="preserve">
+    <value>Nastavi</value>
+  </data>
+  <data name="DateTimePicker_Time" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Dialog_Ok" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="DropDownList_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="DropDownList_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="DropDownList_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="DropZone_Hint" xml:space="preserve">
+    <value>Povlecite datoteke sem in jih spustite za nalaganje</value>
+  </data>
+  <data name="DropZone_Note" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Editor_AddColumnAfter" xml:space="preserve">
+    <value>Dodaj stolpec desno</value>
+  </data>
+  <data name="Editor_AddColumnBefore" xml:space="preserve">
+    <value>Dodaj stolpec levo</value>
+  </data>
+  <data name="Editor_AddRowAfter" xml:space="preserve">
+    <value>Dodaj vrstico spodaj</value>
+  </data>
+  <data name="Editor_AddRowBefore" xml:space="preserve">
+    <value>Dodaj vrstico zgoraj</value>
+  </data>
+  <data name="Editor_AddRowBelow" xml:space="preserve">
+    <value>Dodaj vrstico spodaj</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Fix" xml:space="preserve">
+  <value>Popravi morebitne napake v naslednjem besedilu, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Longer" xml:space="preserve">
+    <value>Podaljšaj naslednje besedilo, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Shorter" xml:space="preserve">
+    <value>Skrajšaj naslednje besedilo, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Polish" xml:space="preserve">
+    <value>Izboljšaj obliko naslednjega besedila za boljšo berljivost in skladnost, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Rewrite" xml:space="preserve">
+    <value>Preoblikuj naslednje besedilo, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Casual" xml:space="preserve">
+    <value>Spremeni ton naslednjega besedila, da bo bolj neformalen, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Formal" xml:space="preserve">
+    <value>Spremeni ton naslednjega besedila, da bo bolj formalen, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Friendly" xml:space="preserve">
+    <value>Spremeni ton naslednjega besedila, da bo bolj prijazen, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Neutral" xml:space="preserve">
+    <value>Spremeni ton naslednjega besedila, da bo bolj nevtralen, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_English" xml:space="preserve">
+    <value>Prevedi naslednje besedilo v angleščino, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_German" xml:space="preserve">
+    <value>Prevedi naslednje besedilo v nemščino, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_Spanish" xml:space="preserve">
+    <value>Prevedi naslednje besedilo v španščino, ne da bi spremenil njegov prvotni pomen in namen. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Default_System_Prompt" xml:space="preserve">
+    <value>Si koristen pomočnik, ki uporabnikom pomaga pri pisanju in urejanju vsebine. Izogibaj se škodljivim, nezakonitim ali neprimernim temam. Vrni preprost niz. Ne vračaj HTML!</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Insert" xml:space="preserve">
+    <value>Vstavi</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Replace" xml:space="preserve">
+    <value>Zamenjaj</value>
+  </data>
+  <data name="Editor_AlignCenter" xml:space="preserve">
+    <value>Poravnaj na sredino</value>
+  </data>
+  <data name="Editor_AlignJustify" xml:space="preserve">
+    <value>Obojestransko</value>
+  </data>
+  <data name="Editor_AlignLeft" xml:space="preserve">
+    <value>Poravnaj levo</value>
+  </data>
+  <data name="Editor_AlignRight" xml:space="preserve">
+    <value>Poravnaj desno</value>
+  </data>
+  <data name="Editor_BackColor" xml:space="preserve">
+    <value>Barva ozadja</value>
+  </data>
+  <data name="Editor_Bold" xml:space="preserve">
+    <value>Krepko</value>
+  </data>
+  <data name="Editor_CreateLink" xml:space="preserve">
+    <value>Ustvari hiperpovezavo</value>
+  </data>
+  <data name="Editor_CreateTable" xml:space="preserve">
+    <value>Ustvari tabelo</value>
+  </data>
+  <data name="Editor_CreateTablePopup" xml:space="preserve">
+    <value>Ustvari tabelo {0}</value>
+  </data>
+  <data name="Editor_DeleteColumn" xml:space="preserve">
+    <value>Izbriši stolpec</value>
+  </data>
+  <data name="Editor_DeleteRow" xml:space="preserve">
+    <value>Izbriši vrstico</value>
+  </data>
+  <data name="Editor_DeleteTable" xml:space="preserve">
+    <value>Izbriši tabelo</value>
+  </data>
+  <data name="Editor_DialogCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Editor_DialogClose" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Editor_DialogInsert" xml:space="preserve">
+    <value>Vstavi</value>
+  </data>
+  <data name="Editor_DialogUpdate" xml:space="preserve">
+    <value>Posodobi</value>
+  </data>
+  <data name="Editor_FontFamily" xml:space="preserve">
+    <value>Pisava</value>
+  </data>
+  <data name="Editor_FontSize" xml:space="preserve">
+    <value>Velikost pisave</value>
+  </data>
+  <data name="Editor_ForeColor" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="Editor_Format" xml:space="preserve">
+    <value>Oblika</value>
+  </data>
+  <data name="Editor_ImageAltText" xml:space="preserve">
+    <value>Nadomestno besedilo:</value>
+  </data>
+  <data name="Editor_ImageHeight" xml:space="preserve">
+    <value>Višina:</value>
+  </data>
+  <data name="Editor_ImageWebAddress" xml:space="preserve">
+    <value>Spletni naslov:</value>
+  </data>
+  <data name="Editor_ImageWidth" xml:space="preserve">
+    <value>Širina:</value>
+  </data>
+  <data name="Editor_Indent" xml:space="preserve">
+    <value>Zamakni</value>
+  </data>
+  <data name="Editor_InsertFile" xml:space="preserve">
+    <value>Vstavi datoteko</value>
+  </data>
+  <data name="Editor_InsertHtml" xml:space="preserve">
+    <value>Vstavi HTML</value>
+  </data>
+  <data name="Editor_InsertImage" xml:space="preserve">
+    <value>Vstavi sliko</value>
+  </data>
+  <data name="Editor_InsertOrderedList" xml:space="preserve">
+    <value>Vstavi oštevilčen seznam</value>
+  </data>
+  <data name="Editor_InsertUnorderedList" xml:space="preserve">
+    <value>Vstavi neoštevilčen seznam</value>
+  </data>
+  <data name="Editor_Italic" xml:space="preserve">
+    <value>Ležeče</value>
+  </data>
+  <data name="Editor_LinkOpenNewWindow" xml:space="preserve">
+    <value>Odpri v novem oknu</value>
+  </data>
+  <data name="Editor_LinkText" xml:space="preserve">
+    <value>Besedilo</value>
+  </data>
+  <data name="Editor_LinkTitle" xml:space="preserve">
+    <value>Naslov:</value>
+  </data>
+  <data name="Editor_LinkWebAddress" xml:space="preserve">
+    <value>Spletni naslov:</value>
+  </data>
+  <data name="Editor_MergeCells" xml:space="preserve">
+    <value>Združi celice</value>
+  </data>
+  <data name="Editor_Outdent" xml:space="preserve">
+    <value>Zmanjšaj zamik</value>
+  </data>
+  <data name="Editor_Redo" xml:space="preserve">
+    <value>Ponovi</value>
+  </data>
+  <data name="Editor_SetHtml" xml:space="preserve">
+    <value>Prikaži HTML</value>
+  </data>
+  <data name="Editor_SplitCell" xml:space="preserve">
+    <value>Razdeli celico</value>
+  </data>
+  <data name="Editor_Strikethrough" xml:space="preserve">
+    <value>Prečrtano</value>
+  </data>
+  <data name="Editor_Subscript" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="Editor_Superscript" xml:space="preserve">
+    <value>Eksponent</value>
+  </data>
+  <data name="Editor_Underline" xml:space="preserve">
+    <value>Podčrtano</value>
+  </data>
+  <data name="Editor_Undo" xml:space="preserve">
+    <value>Razveljavi</value>
+  </data>
+  <data name="Editor_Unlink" xml:space="preserve">
+    <value>Odstrani hiperpovezavo</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteOk" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteText" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati to datoteko/te datoteke?</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="FileManager_ContextMenu_Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="FileManager_ContextMenu_Download" xml:space="preserve">
+    <value>Prenesi</value>
+  </data>
+  <data name="FileManager_ContextMenu_Rename" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateCreated" xml:space="preserve">
+    <value>Datum ustvarjanja</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateModified" xml:space="preserve">
+    <value>Datum spremembe</value>
+  </data>
+  <data name="FileManager_DetailsPane_NoFileSelected" xml:space="preserve">
+    <value>Nobena datoteka ni izbrana</value>
+  </data>
+  <data name="FileManager_DetailsPane_Size" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="FileManager_DetailsPane_Type" xml:space="preserve">
+    <value>Vrsta datoteke</value>
+  </data>
+  <data name="FileManager_FileView_Items" xml:space="preserve">
+    <value>Elementi</value>
+  </data>
+  <data name="FileManager_Grid_DateCreatedColumnTitle" xml:space="preserve">
+    <value>Datum ustvarjanja</value>
+  </data>
+  <data name="FileManager_Grid_FileSizeColumnTitle" xml:space="preserve">
+    <value>Velikost datoteke</value>
+  </data>
+  <data name="FileManager_Grid_NameColumnTitle" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="FileManager_SearchBox_Placeholder" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="FileManager_SearchBox_Title" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="FileManager_ToolBar_CreateNewFolder" xml:space="preserve">
+    <value>Nova mapa</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBy" xml:space="preserve">
+    <value>Razvrsti po</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateCreated" xml:space="preserve">
+    <value>Datum ustvarjanja</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateModified" xml:space="preserve">
+    <value>Datum spremembe</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBySize" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByType" xml:space="preserve">
+    <value>Vrsta datoteke</value>
+  </data>
+  <data name="FileManager_ToolBar_Upload" xml:space="preserve">
+    <value>Naloži</value>
+  </data>
+  <data name="FileManager_ToolBar_ViewDetails" xml:space="preserve">
+    <value>Prikaži podrobnosti</value>
+  </data>
+  <data name="FileManager_UploadDialogCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="FileManager_UploadDialogOk" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="FileManager_UploadDialogTitle" xml:space="preserve">
+    <value>Naloži datoteke</value>
+  </data>
+  <data name="FileSelect_DropZoneHint" xml:space="preserve">
+    <value>Povlecite datoteke sem in jih spustite</value>
+  </data>
+  <data name="FileSelect_InvalidFileExtension" xml:space="preserve">
+    <value>Vrsta datoteke ni dovoljena.</value>
+  </data>
+  <data name="FileSelect_InvalidMaxFileSize" xml:space="preserve">
+    <value>Datoteka je prevelika.</value>
+  </data>
+  <data name="FileSelect_InvalidMinFileSize" xml:space="preserve">
+    <value>Datoteka je premajhna.</value>
+  </data>
+  <data name="FileSelect_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="FileSelect_SelectFiles" xml:space="preserve">
+    <value>Izberi datoteke...</value>
+  </data>
+  <data name="Filter_AddExpression" xml:space="preserve">
+    <value>Dodaj izraz</value>
+  </data>
+  <data name="Filter_AddGroup" xml:space="preserve">
+    <value>Dodaj skupino</value>
+  </data>
+  <data name="Filter_AdditionalOperator" xml:space="preserve">
+    <value>Dodatni operator</value>
+  </data>
+  <data name="Filter_AdditionalValue" xml:space="preserve">
+    <value>Dodatna vrednost</value>
+  </data>
+  <data name="Filter_All" xml:space="preserve">
+    <value>(Vse)</value>
+  </data>
+  <data name="Filter_And" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="Filter_BooleanIsEqualTo" xml:space="preserve">
+    <value>Je enako</value>
+  </data>
+  <data name="Filter_BooleanIsNotEqualTo" xml:space="preserve">
+    <value>Ni enako</value>
+  </data>
+  <data name="Filter_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Filter_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="Filter_Clear_All" xml:space="preserve">
+    <value>Počisti vse filtre</value>
+  </data>
+  <data name="Filter_DateIsEqualTo" xml:space="preserve">
+    <value>Je enako</value>
+  </data>
+  <data name="Filter_DateIsGreaterThan" xml:space="preserve">
+    <value>Je pozneje kot</value>
+  </data>
+  <data name="Filter_DateIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Je pozneje kot ali enako</value>
+  </data>
+  <data name="Filter_DateIsLessThan" xml:space="preserve">
+    <value>Je prej kot</value>
+  </data>
+  <data name="Filter_DateIsLessThanOrEqualTo" xml:space="preserve">
+    <value>Je prej kot ali enako</value>
+  </data>
+  <data name="Filter_DateIsNotEqualTo" xml:space="preserve">
+    <value>Ni enako</value>
+  </data>
+  <data name="Filter_DateIsNotNull" xml:space="preserve">
+    <value>Ni Null</value>
+  </data>
+  <data name="Filter_DateIsNull" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="Filter_EnumIsEqualTo" xml:space="preserve">
+    <value>Je enako</value>
+  </data>
+  <data name="Filter_EnumIsNotEqualTo" xml:space="preserve">
+    <value>Ni enako</value>
+  </data>
+  <data name="Filter_EnumIsNotNull" xml:space="preserve">
+    <value>Ni Null</value>
+  </data>
+  <data name="Filter_EnumIsNull" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="Filter_Expression_Options" xml:space="preserve">
+    <value>Operatorji filtra</value>
+  </data>
+  <data name="Filter_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Filter_FilterLabel" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Filter_FilterSettings" xml:space="preserve">
+    <value>Nastavitve filtra</value>
+  </data>
+  <data name="Filter_Info" xml:space="preserve">
+    <value>Prikaži zapise z vrednostjo, ki</value>
+  </data>
+  <data name="Filter_IsFalse" xml:space="preserve">
+    <value>Je napačno</value>
+  </data>
+  <data name="Filter_IsTrue" xml:space="preserve">
+    <value>Je pravilno</value>
+  </data>
+  <data name="Filter_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="Filter_NumberIsEqualTo" xml:space="preserve">
+    <value>Je enako</value>
+  </data>
+  <data name="Filter_NumberIsGreaterThan" xml:space="preserve">
+    <value>Je večje od</value>
+  </data>
+  <data name="Filter_NumberIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Je večje od ali enako</value>
+  </data>
+  <data name="Filter_NumberIsLessThan" xml:space="preserve">
+    <value>Je manjše od</value>
+  </data>
+  <data name="Filter_NumberIsLessThanOrEqualTo" xml:space="preserve">
+    <value>Je manjše od ali enako</value>
+  </data>
+  <data name="Filter_NumberIsNotEqualTo" xml:space="preserve">
+    <value>Ni enako</value>
+  </data>
+  <data name="Filter_NumberIsNotNull" xml:space="preserve">
+    <value>Ni Null</value>
+  </data>
+  <data name="Filter_NumberIsNull" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="Filter_Operator" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="Filter_Or" xml:space="preserve">
+    <value>Ali</value>
+  </data>
+  <data name="Filter_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="Filter_Search" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="Filter_SelectAll" xml:space="preserve">
+    <value>Izberi vse</value>
+  </data>
+  <data name="Filter_SelectValue" xml:space="preserve">
+    <value>-Izberi vrednost-</value>
+  </data>
+  <data name="Filter_StringContains" xml:space="preserve">
+    <value>Vsebuje</value>
+  </data>
+  <data name="Filter_StringDoesNotContain" xml:space="preserve">
+    <value>Ne vsebuje</value>
+  </data>
+  <data name="Filter_StringDoesNotEndWith" xml:space="preserve">
+    <value>Se ne konča z</value>
+  </data>
+  <data name="Filter_StringDoesNotStartWith" xml:space="preserve">
+    <value>Se ne začne z</value>
+  </data>
+  <data name="Filter_StringEndsWith" xml:space="preserve">
+    <value>Se konča z</value>
+  </data>
+  <data name="Filter_StringIsEmpty" xml:space="preserve">
+    <value>Je prazno</value>
+  </data>
+  <data name="Filter_StringIsEqualTo" xml:space="preserve">
+    <value>Je enako</value>
+  </data>
+  <data name="Filter_StringIsNotEmpty" xml:space="preserve">
+    <value>Ni prazno</value>
+  </data>
+  <data name="Filter_StringIsNotEqualTo" xml:space="preserve">
+    <value>Ni enako</value>
+  </data>
+  <data name="Filter_StringIsNotNull" xml:space="preserve">
+    <value>Ni Null</value>
+  </data>
+  <data name="Filter_StringIsNotNullOrEmpty" xml:space="preserve">
+    <value>Ima vrednost</value>
+  </data>
+  <data name="Filter_StringIsNull" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="Filter_StringIsNullOrEmpty" xml:space="preserve">
+    <value>Nima vrednosti</value>
+  </data>
+  <data name="Filter_StringStartsWith" xml:space="preserve">
+    <value>Se začne z</value>
+  </data>
+  <data name="Filter_Value" xml:space="preserve">
+    <value>Vrednost</value>
+  </data>
+  <data name="FlatColorPicker_AriaLabel" xml:space="preserve">
+    <value>Trenutno izbrana barva je {0}</value>
+  </data>
+  <data name="Form_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="Form_Submit" xml:space="preserve">
+    <value>Pošlji</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Gantt_DialogClose" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Gantt_DialogMaximize" xml:space="preserve">
+    <value>Povečaj</value>
+  </data>
+  <data name="Gantt_DialogMinimize" xml:space="preserve">
+    <value>Pomanjšaj</value>
+  </data>
+  <data name="Gantt_Editor_DependencyAdd" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Gantt_Editor_DependencyName" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="Gantt_Editor_DependencyRemove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="Gantt_Editor_DependencyType" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
+    <value>Naloga</value>
+  </data>
+  <data name="Gantt_Editor_End" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="Gantt_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>Končni datum mora biti večji od začetnega datuma.</value>
+  </data>
+  <data name="Gantt_Editor_General" xml:space="preserve">
+    <value>Splošno</value>
+  </data>
+  <data name="Gantt_Editor_None" xml:space="preserve">
+    <value>-Brez-</value>
+  </data>
+  <data name="Gantt_Editor_Other" xml:space="preserve">
+    <value>Drugo</value>
+  </data>
+  <data name="Gantt_Editor_Parent" xml:space="preserve">
+    <value>Nadrejeno</value>
+  </data>
+  <data name="Gantt_Editor_PercentComplete" xml:space="preserve">
+    <value>Dokončano</value>
+  </data>
+  <data name="Gantt_Editor_Predecessors" xml:space="preserve">
+    <value>Predhodniki</value>
+  </data>
+  <data name="Gantt_Editor_Start" xml:space="preserve">
+    <value>Začetek</value>
+  </data>
+  <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>Začetni datum mora biti manjši od končnega datuma.</value>
+  </data>
+  <data name="Gantt_Editor_Successors" xml:space="preserve">
+    <value>Nasledniki</value>
+  </data>
+  <data name="Gantt_Editor_Title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="Gantt_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>Naslov je obvezen.</value>
+  </data>
+  <data name="Gantt_Month" xml:space="preserve">
+    <value>Mesec</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="Gantt_Week" xml:space="preserve">
+    <value>Teden</value>
+  </data>
+  <data name="Gantt_Year" xml:space="preserve">
+    <value>Leto</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Grid_CancelChanges" xml:space="preserve">
+    <value>Razveljavi spremembe</value>
+  </data>
+  <data name="Grid_CancelDelete" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Grid_CheckAll" xml:space="preserve">
+    <value>Označi vse</value>
+  </data>
+  <data name="Grid_Columns" xml:space="preserve">
+    <value>Stolpci</value>
+  </data>
+  <data name="Grid_ColumnSettings" xml:space="preserve">
+    <value>Nastavitve stolpcev</value>
+  </data>
+  <data name="Grid_Confirmation" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati ta zapis?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Grid_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Grid_ConfirmDeleteOk" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="Grid_ConfirmDeleteText" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati vnos?</value>
+  </data>
+  <data name="Grid_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Grid_Create" xml:space="preserve">
+    <value>Dodaj nov zapis</value>
+  </data>
+  <data name="Grid_Csv" xml:space="preserve">
+    <value>Izvozi v CSV</value>
+  </data>
+  <data name="Grid_DataTable" xml:space="preserve">
+    <value>Podatkovna tabela</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Grid_Detail_Template_Collapse" xml:space="preserve">
+    <value>Skrij podrobnosti</value>
+  </data>
+  <data name="Grid_Detail_Template_Expand" xml:space="preserve">
+    <value>Razširi podrobnosti</value>
+  </data>
+  <data name="Grid_DialogClose" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Grid_Done" xml:space="preserve">
+    <value>Končano</value>
+  </data>
+  <data name="Grid_DragItems" xml:space="preserve">
+    <value>Izbrani elementi</value>
+  </data>
+  <data name="Grid_DragRowLabel" xml:space="preserve">
+    <value>Povleci vrstico</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="Grid_Excel" xml:space="preserve">
+    <value>Izvozi v Excel</value>
+  </data>
+  <data name="Grid_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_FilterMenuSettings" xml:space="preserve">
+    <value>Nastavitve menija filtra stolpca {0}</value>
+  </data>
+  <data name="Grid_FilterRowLabel" xml:space="preserve">
+    <value>Filter {0}</value>
+  </data>
+  <data name="Grid_GroupHeaderLabel" xml:space="preserve">
+    <value>Glava skupine</value>
+  </data>
+  <data name="Grid_Lock" xml:space="preserve">
+    <value>Zakleni</value>
+  </data>
+  <data name="Grid_NoRecords" xml:space="preserve">
+    <value>Ni razpoložljivih vrednosti.</value>
+  </data>
+  <data name="Grid_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="Grid_SaveChanges" xml:space="preserve">
+    <value>Shrani spremembe</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Iskanje...</value>
+  </data>
+  <data name="Grid_Select" xml:space="preserve">
+    <value>Izberi</value>
+  </data>
+  <data name="Grid_SelectAllRows" xml:space="preserve">
+    <value>Izberi vse vrstice</value>
+  </data>
+  <data name="Grid_SelectRow" xml:space="preserve">
+    <value>Izberi vrstico</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Razvrsti naraščajoče</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Razvrsti padajoče</value>
+  </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Razvrščeno naraščajoče</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Razvrščeno padajoče</value>
+  </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Apply" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Title" xml:space="preserve">
+    <value>AI pomočnik</value>
+  </data>
+  <data name="Grid_ToolbarLabel" xml:space="preserve">
+    <value>Orodna vrstica</value>
+  </data>
+  <data name="Grid_Unlock" xml:space="preserve">
+    <value>Odkleni</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Posodobi</value>
+  </data>
+  <data name="Group_Clear_All" xml:space="preserve">
+    <value>Odstrani združevanje</value>
+  </data>
+  <data name="Group_Empty" xml:space="preserve">
+    <value>Povlecite glavo stolpca sem in jo spustite za združevanje po tem stolpcu</value>
+  </data>
+  <data name="ListBox_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveDown" xml:space="preserve">
+    <value>Premakni navzdol</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveUp" xml:space="preserve">
+    <value>Premakni navzgor</value>
+  </data>
+  <data name="ListBoxToolBarTool_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllFrom" xml:space="preserve">
+    <value>Prenesi vse iz</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllTo" xml:space="preserve">
+    <value>Prenesi vse v</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferFrom" xml:space="preserve">
+    <value>Prenesi iz</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferTo" xml:space="preserve">
+    <value>Prenesi v</value>
+  </data>
+  <data name="MaskedTextBox_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="MultiSelect_Apply" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="MultiSelect_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="MultiSelect_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="MultiSelect_ItemsSelected" xml:space="preserve">
+    <value>Izbranih elementov: {0}</value>
+  </data>
+  <data name="MultiSelect_MoreSelected" xml:space="preserve">
+    <value>Še izbranih: {0}</value>
+  </data>
+  <data name="MultiSelect_NoData" xml:space="preserve">
+    <value>Ni podatkov</value>
+  </data>
+  <data name="MultiSelect_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="MultiSelect_Use" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="NumericTextBox_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
+    <value>Zmanjšaj vrednost</value>
+  </data>
+  <data name="NumericTextBox_IncreaseValue" xml:space="preserve">
+    <value>Povečaj vrednost</value>
+  </data>
+  <data name="Optional_Label" xml:space="preserve">
+    <value>Izbirno</value>
+  </data>
+  <data name="Pager_AllPages" xml:space="preserve">
+    <value>Vse</value>
+  </data>
+  <data name="Pager_Display" xml:space="preserve">
+    <value>{0} - {1} od {2} elementov</value>
+  </data>
+  <data name="Pager_Empty" xml:space="preserve">
+    <value>Ni elementov</value>
+  </data>
+  <data name="Pager_First" xml:space="preserve">
+    <value>Na prvo stran</value>
+  </data>
+  <data name="Pager_ItemsPerPage" xml:space="preserve">
+    <value>Elementov na stran</value>
+  </data>
+  <data name="Pager_Last" xml:space="preserve">
+    <value>Na zadnjo stran</value>
+  </data>
+  <data name="Pager_MorePages" xml:space="preserve">
+    <value>Več strani</value>
+  </data>
+  <data name="Pager_Next" xml:space="preserve">
+    <value>Na naslednjo stran</value>
+  </data>
+  <data name="Pager_Of" xml:space="preserve">
+    <value>od {0}</value>
+  </data>
+  <data name="Pager_Page" xml:space="preserve">
+    <value>Stran</value>
+  </data>
+  <data name="Pager_PageDisplay" xml:space="preserve">
+    <value>Stran {0}</value>
+  </data>
+  <data name="Pager_PageInputLabel" xml:space="preserve">
+    <value>Izberi stran</value>
+  </data>
+  <data name="Pager_Previous" xml:space="preserve">
+    <value>Na prejšnjo stran</value>
+  </data>
+  <data name="Pager_Refresh" xml:space="preserve">
+    <value>Osveži</value>
+  </data>
+  <data name="Pager_WrapperLabel" xml:space="preserve">
+    <value>Krmarjenje po straneh, stran {0} od {1}</value>
+  </data>
+  <data name="PdfViewer_Annotations_Color" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogText" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati pripombo?</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogTitle" xml:space="preserve">
+    <value>Izbriši pripombo</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogCancelButtonText" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogOkButtonText" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="PdfViewer_Annotations_FontSize" xml:space="preserve">
+    <value>Velikost pisave</value>
+  </data>
+  <data name="PdfViewer_Annotations_FreeTextEditorPlaceholder" xml:space="preserve">
+    <value>Začnite tipkati</value>
+  </data>
+  <data name="PdfViewer_Annotations_TextStyle" xml:space="preserve">
+    <value>Slog besedila</value>
+  </data>
+  <data name="PdfViewer_Document_AriaLabel" xml:space="preserve">
+    <value>Okno za ogled dokumenta</value>
+  </data>
+  <data name="PdfViewer_DropZone_Hint" xml:space="preserve">
+    <value>Povlecite datoteke sem in jih spustite za nalaganje</value>
+  </data>
+  <data name="PdfViewer_Search_Close" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="PdfViewer_Search_MatchCase" xml:space="preserve">
+    <value>Upoštevaj velikost črk</value>
+  </data>
+  <data name="PdfViewer_Search_MatchesOf" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="PdfViewer_Search_NextMatch" xml:space="preserve">
+    <value>Naslednje ujemanje</value>
+  </data>
+  <data name="PdfViewer_Search_Placeholder" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="PdfViewer_Search_PreviousMatch" xml:space="preserve">
+    <value>Prejšnje ujemanje</value>
+  </data>
+  <data name="PdfViewer_SearchDialog_AriaLabel" xml:space="preserve">
+    <value>Pogovorno okno iskanja</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Annotations" xml:space="preserve">
+    <value>Pripombe</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Download" xml:space="preserve">
+    <value>Prenesi</value>
+  </data>
+  <data name="PdfViewer_ToolBar_FreeText" xml:space="preserve">
+    <value>Prosto besedilo</value>
+  </data>
+  <data name="PdfViewer_ToolBar_HideAnnotations" xml:space="preserve">
+    <value>Skrij</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Highlight" xml:space="preserve">
+    <value>Označi</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Panning" xml:space="preserve">
+    <value>Omogoči pomikanje</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Print" xml:space="preserve">
+    <value>Natisni</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Search" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="PdfViewer_ToolBar_TextSelection" xml:space="preserve">
+    <value>Omogoči izbiro</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomActualWidth" xml:space="preserve">
+    <value>Dejanska širina</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomFitToPage" xml:space="preserve">
+    <value>Prilagodi strani</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomFitToWidth" xml:space="preserve">
+    <value>Prilagodi širini</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomIn" xml:space="preserve">
+    <value>Povečaj</value>
+  </data>
+  <data name="PdfViewer_ToolBar_ZoomOut" xml:space="preserve">
+    <value>Pomanjšaj</value>
+  </data>
+  <data name="PivotGrid_GrandTotal" xml:space="preserve">
+    <value>Skupaj</value>
+  </data>
+  <data name="PivotGrid_IncludeFields" xml:space="preserve">
+    <value>Vključi polja</value>
+  </data>
+  <data name="PivotGrid_TotalValueFormat" xml:space="preserve">
+    <value>Skupaj {0}</value>
+  </data>
+  <data name="PivotGrid_ValueTotalFormat" xml:space="preserve">
+    <value>{0} skupaj</value>
+  </data>
+  <data name="PivotGridConfigurator_Apply" xml:space="preserve">
+    <value>Uporabi</value>
+  </data>
+  <data name="PivotGridConfigurator_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="PivotGridConfigurator_Columns" xml:space="preserve">
+    <value>Stolpci</value>
+  </data>
+  <data name="PivotGridConfigurator_Fields" xml:space="preserve">
+    <value>Polja</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToColumns" xml:space="preserve">
+    <value>Premakni v stolpce</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToRows" xml:space="preserve">
+    <value>Premakni v vrstice</value>
+  </data>
+  <data name="PivotGridConfigurator_NoFields" xml:space="preserve">
+    <value>Izberite nekaj polj za začetek nastavitve</value>
+  </data>
+  <data name="PivotGridConfigurator_Rows" xml:space="preserve">
+    <value>Vrstice</value>
+  </data>
+  <data name="PivotGridConfigurator_Settings" xml:space="preserve">
+    <value>Lastnosti</value>
+  </data>
+  <data name="PivotGridConfigurator_Values" xml:space="preserve">
+    <value>Vrednosti</value>
+  </data>
+  <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
+    <value>Spremeni nastavitve</value>
+  </data>
+  <data name="PopupList_AriaLabel" xml:space="preserve">
+    <value>Seznam možnosti</value>
+  </data>
+  <data name="Scheduler_Agenda" xml:space="preserve">
+    <value>Dnevni red</value>
+  </data>
+  <data name="Scheduler_AllDay" xml:space="preserve">
+    <value>cel dan</value>
+  </data>
+  <data name="Scheduler_AllEvents" xml:space="preserve">
+    <value>Vsi dogodki</value>
+  </data>
+  <data name="Scheduler_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteOk" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteText" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati dogodek?</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Scheduler_Date_Column_Title" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Scheduler_Day" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="Scheduler_Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Scheduler_DialogClose" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Scheduler_Editor_Description" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="Scheduler_Editor_EditorTitle" xml:space="preserve">
+    <value>Dogodek</value>
+  </data>
+  <data name="Scheduler_Editor_End" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="Scheduler_Editor_EndTimeRequiredValidationMessage" xml:space="preserve">
+    <value>Končni čas je obvezen.</value>
+  </data>
+  <data name="Scheduler_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>Končni čas mora biti po začetnem času.</value>
+  </data>
+  <data name="Scheduler_Editor_IsAllDay" xml:space="preserve">
+    <value>Celodnevni dogodek</value>
+  </data>
+  <data name="Scheduler_Editor_Repeat" xml:space="preserve">
+    <value>Ponovi</value>
+  </data>
+  <data name="Scheduler_Editor_Start" xml:space="preserve">
+    <value>Začetek</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeRequiredValidationMessage" xml:space="preserve">
+    <value>Začetni čas je obvezen.</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>Začetni čas mora biti pred končnim časom.</value>
+  </data>
+  <data name="Scheduler_Editor_Title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="Scheduler_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>Naslov je obvezen.</value>
+  </data>
+  <data name="Scheduler_Event_Column_Title" xml:space="preserve">
+    <value>Dogodek</value>
+  </data>
+  <data name="Scheduler_Month" xml:space="preserve">
+    <value>Mesec</value>
+  </data>
+  <data name="Scheduler_MultiDay" xml:space="preserve">
+    <value>Več dni</value>
+  </data>
+  <data name="Scheduler_Next" xml:space="preserve">
+    <value>Naslednje</value>
+  </data>
+  <data name="Scheduler_No_Events_Text" xml:space="preserve">
+    <value>ni dogodkov</value>
+  </data>
+  <data name="Scheduler_Previous" xml:space="preserve">
+    <value>Prejšnje</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteRecurring" xml:space="preserve">
+    <value>Želite izbrisati samo ta dogodek ali celotno serijo?</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowOccurrence" xml:space="preserve">
+    <value>Izbriši trenutni pojav</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowSeries" xml:space="preserve">
+    <value>Izbriši serijo</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
+    <value>Izbriši ponavljajoči se termin</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
+    <value>dan(i)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
+    <value>Ponovi vsakih</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
+    <value>Po</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Label" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Never" xml:space="preserve">
+    <value>Nikoli</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Occurrence" xml:space="preserve">
+    <value>pojavov</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_On" xml:space="preserve">
+    <value>Dne</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Daily" xml:space="preserve">
+    <value>Dnevno</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Monthly" xml:space="preserve">
+    <value>Mesečno</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Never" xml:space="preserve">
+    <value>Nikoli</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Weekly" xml:space="preserve">
+    <value>Tedensko</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Yearly" xml:space="preserve">
+    <value>Letno</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Day" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Interval" xml:space="preserve">
+    <value>mesec(i)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatEvery" xml:space="preserve">
+    <value>Ponovi vsakih</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatOn" xml:space="preserve">
+    <value>Ponovi dne</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_First" xml:space="preserve">
+    <value>Prvi</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Fourth" xml:space="preserve">
+    <value>Četrti</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Last" xml:space="preserve">
+    <value>Zadnji</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Second" xml:space="preserve">
+    <value>Drugi</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Third" xml:space="preserve">
+    <value>Tretji</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Day" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekday" xml:space="preserve">
+    <value>Delovni dan</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekend" xml:space="preserve">
+    <value>Vikend</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_Interval" xml:space="preserve">
+    <value>teden(i)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatEvery" xml:space="preserve">
+    <value>Ponovi vsakih</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatOn" xml:space="preserve">
+    <value>Ponovi dne</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Interval" xml:space="preserve">
+    <value>leto(a)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Of" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatEvery" xml:space="preserve">
+    <value>Ponovi vsakih</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatOn" xml:space="preserve">
+    <value>Ponovi dne</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
+    <value>Želite urediti samo ta dogodek ali celotno serijo?</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
+    <value>Uredi trenutni pojav</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
+    <value>Uredi serijo</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
+    <value>Uredi ponavljajoči se termin</value>
+  </data>
+  <data name="Scheduler_Save" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="Scheduler_ShowFullDay" xml:space="preserve">
+    <value>Prikaži cel dan</value>
+  </data>
+  <data name="Scheduler_ShowWorkDay" xml:space="preserve">
+    <value>Prikaži delovni čas</value>
+  </data>
+  <data name="Scheduler_Time_Column_Title" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Scheduler_Timeline" xml:space="preserve">
+    <value>Časovnica</value>
+  </data>
+  <data name="Scheduler_Today" xml:space="preserve">
+    <value>Danes</value>
+  </data>
+  <data name="Scheduler_Week" xml:space="preserve">
+    <value>Teden</value>
+  </data>
+  <data name="Signature_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="Signature_Maximize" xml:space="preserve">
+    <value>Povečaj</value>
+  </data>
+  <data name="Signature_Minimize" xml:space="preserve">
+    <value>Pomanjšaj</value>
+  </data>
+  <data name="Slider_Decrease" xml:space="preserve">
+    <value>Zmanjšaj</value>
+  </data>
+  <data name="Slider_Increase" xml:space="preserve">
+    <value>Povečaj</value>
+  </data>
+  <data name="Sort_Clear_All" xml:space="preserve">
+    <value>Odstrani razvrščanje</value>
+  </data>
+  <data name="SplitButton_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="Spreadsheet_AddColumnLeft" xml:space="preserve">
+    <value>Dodaj stolpec levo</value>
+  </data>
+  <data name="Spreadsheet_AddColumnRight" xml:space="preserve">
+    <value>Dodaj stolpec desno</value>
+  </data>
+  <data name="Spreadsheet_AddRowAbove" xml:space="preserve">
+    <value>Dodaj vrstico zgoraj</value>
+  </data>
+  <data name="Spreadsheet_AddRowBelow" xml:space="preserve">
+    <value>Dodaj vrstico spodaj</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Poravnaj spodaj</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Poravnaj na sredino</value>
+  </data>
+  <data name="Spreadsheet_AlignJustify" xml:space="preserve">
+    <value>Obojestransko</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Poravnaj levo</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Poravnaj na sredino</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Poravnaj desno</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Poravnaj zgoraj</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Barva ozadja</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Krepko</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Izreži</value>
+  </data>
+  <data name="Spreadsheet_DecreaseDecimal" xml:space="preserve">
+    <value>Zmanjšaj decimalke</value>
+  </data>
+  <data name="Spreadsheet_DefaultDownloadFileName" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Spreadsheet_DefaultSheetName" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Spreadsheet_DeleteColumn" xml:space="preserve">
+    <value>Izbriši stolpec</value>
+  </data>
+  <data name="Spreadsheet_DeleteImage" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Spreadsheet_DeleteRow" xml:space="preserve">
+    <value>Izbriši vrstico</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorApplyButtonText" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorCloseButtonText" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorText" xml:space="preserve">
+    <value>&lt;p&gt;Za izvedbo tega dejanja ta stran potrebuje dostop do odložišča.&lt;/p&gt;
+&lt;p&gt;Pojdite v varnostne nastavitve brskalnika in dovolite dostop do odložišča za to stran.&lt;/p&gt;
+&lt;p&gt;Lahko pa uporabite te bližnjice na tipkovnici:&lt;/p&gt;
+&lt;div&gt;Izreži = Ctrl/Cmd + X&lt;/div&gt;
+&lt;div&gt;Kopiraj = Ctrl/Cmd + C&lt;/div&gt;
+&lt;div&gt;Prilepi = Ctrl/Cmd + V&lt;/div&gt;</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorTitle" xml:space="preserve">
+    <value>Ni dostopa do odložišča</value>
+  </data>
+  <data name="Spreadsheet_Dialog_Close" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetApplyButtonText" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetCancelButtonText" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetText" xml:space="preserve">
+    <value>Podatki lista bodo izbrisani. Želite nadaljevati?</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetTitle" xml:space="preserve">
+    <value>Izbriši list</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkApplyButtonText" xml:space="preserve">
+    <value>Vstavi</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkCancelButtonText" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkInputPlaceholderText" xml:space="preserve">
+    <value>Besedilo povezave</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkLabelText" xml:space="preserve">
+    <value>Povezava:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRemoveButtonText" xml:space="preserve">
+    <value>Odstrani povezavo</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRequiredFieldText" xml:space="preserve">
+    <value>Povezava ne sme biti prazna.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkTitle" xml:space="preserve">
+    <value>Vstavi povezavo</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetApplyButtonText" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetButtonText" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetCancelButtonText" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetErrorText" xml:space="preserve">
+    <value>List s tem imenom že obstaja. Vnesite drugo ime.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetLabelText" xml:space="preserve">
+    <value>Preimenuj list v:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetPlaceholderText" xml:space="preserve">
+    <value>Ime lista</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetRequiredFieldText" xml:space="preserve">
+    <value>Ime lista ne sme biti prazno.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetTitle" xml:space="preserve">
+    <value>Preimenuj list</value>
+  </data>
+  <data name="Spreadsheet_DownloadFile" xml:space="preserve">
+    <value>Prenesi</value>
+  </data>
+  <data name="Spreadsheet_FontFamily" xml:space="preserve">
+    <value>Pisava</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Velikost pisave</value>
+  </data>
+  <data name="Spreadsheet_FormulaInput" xml:space="preserve">
+    <value>Vnos formule</value>
+  </data>
+  <data name="Spreadsheet_GridLines" xml:space="preserve">
+    <value>Preklopi mrežne črte</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlign" xml:space="preserve">
+    <value>Vodoravna poravnava</value>
+  </data>
+  <data name="Spreadsheet_IncreaseDecimal" xml:space="preserve">
+    <value>Povečaj decimalke</value>
+  </data>
+  <data name="Spreadsheet_InsertImage" xml:space="preserve">
+    <value>Vstavi sliko</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Vstavi povezavo</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>Ležeče</value>
+  </data>
+  <data name="Spreadsheet_MergeAllCells" xml:space="preserve">
+    <value>Združi vse</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Združi celice</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsHorizontally" xml:space="preserve">
+    <value>Združi vodoravno</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsVertically" xml:space="preserve">
+    <value>Združi navpično</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Polje imena</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Oblika števila</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatAutomatic" xml:space="preserve">
+    <value>Samodejno</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatCurrency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDateTime" xml:space="preserve">
+    <value>Datum in čas</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDuration" xml:space="preserve">
+    <value>Trajanje</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatFinancial" xml:space="preserve">
+    <value>Finančno</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatNumber" xml:space="preserve">
+    <value>Število</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatPercentage" xml:space="preserve">
+    <value>Odstotek</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatText" xml:space="preserve">
+    <value>Besedilo</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatTime" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Spreadsheet_OpenFile" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Prilepi</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Ponovi</value>
+  </data>
+  <data name="Spreadsheet_SendImageToBack" xml:space="preserve">
+    <value>V ozadje</value>
+  </data>
+  <data name="Spreadsheet_SendImageToFront" xml:space="preserve">
+    <value>V ospredje</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AddSheet" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AllSheets" xml:space="preserve">
+    <value>Vsi listi</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DeleteSheet" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DuplicateSheet" xml:space="preserve">
+    <value>Podvoji</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_HideSheet" xml:space="preserve">
+    <value>Skrij</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetLeft" xml:space="preserve">
+    <value>Premakni levo</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetRight" xml:space="preserve">
+    <value>Premakni desno</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_RenameSheetButtonText" xml:space="preserve">
+    <value>Preimenuj</value>
+  </data>
+  <data name="Spreadsheet_TextColor" xml:space="preserve">
+    <value>Barva besedila</value>
+  </data>
+  <data name="Spreadsheet_TextWrap" xml:space="preserve">
+    <value>Prelom besedila</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FileMenu" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FormatMenu" xml:space="preserve">
+    <value>Oblika</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_HomeMenu" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_InsertMenu" xml:space="preserve">
+    <value>Vstavi</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_ViewMenu" xml:space="preserve">
+    <value>Pogled</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Podčrtano</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Razveljavi</value>
+  </data>
+  <data name="Spreadsheet_UnmergeCells" xml:space="preserve">
+    <value>Razdruži</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlign" xml:space="preserve">
+    <value>Navpična poravnava</value>
+  </data>
+  <data name="Switch_OffLabel" xml:space="preserve">
+    <value>Izklop</value>
+  </data>
+  <data name="Switch_OnLabel" xml:space="preserve">
+    <value>Vklop</value>
+  </data>
+  <data name="TabStrip_ShowNextTabs" xml:space="preserve">
+    <value>Prikaži naslednje zavihke</value>
+  </data>
+  <data name="TabStrip_ShowPreviousTabs" xml:space="preserve">
+    <value>Prikaži prejšnje zavihke</value>
+  </data>
+  <data name="TextBox_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="TimePicker_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="TimePicker_Day" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="TimePicker_DayPeriod" xml:space="preserve">
+    <value>AM/PM</value>
+  </data>
+  <data name="TimePicker_Era" xml:space="preserve">
+    <value>Doba</value>
+  </data>
+  <data name="TimePicker_Hour" xml:space="preserve">
+    <value>Ura</value>
+  </data>
+  <data name="TimePicker_Minute" xml:space="preserve">
+    <value>Minuta</value>
+  </data>
+  <data name="TimePicker_Month" xml:space="preserve">
+    <value>Mesec</value>
+  </data>
+  <data name="TimePicker_Now" xml:space="preserve">
+    <value>Zdaj</value>
+  </data>
+  <data name="TimePicker_Open" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="TimePicker_Quarter" xml:space="preserve">
+    <value>Četrtletje</value>
+  </data>
+  <data name="TimePicker_Second" xml:space="preserve">
+    <value>Sekunda</value>
+  </data>
+  <data name="TimePicker_Set" xml:space="preserve">
+    <value>Nastavi</value>
+  </data>
+  <data name="TimePicker_ToggleClock" xml:space="preserve">
+    <value>Preklopi uro</value>
+  </data>
+  <data name="TimePicker_WeekDay" xml:space="preserve">
+    <value>Dan v tednu</value>
+  </data>
+  <data name="TimePicker_Year" xml:space="preserve">
+    <value>Leto</value>
+  </data>
+  <data name="TimePicker_Zone" xml:space="preserve">
+    <value>Časovni pas</value>
+  </data>
+  <data name="TreeList_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteOk" xml:space="preserve">
+    <value>V redu</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteText" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati vnos?</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="TreeList_Create" xml:space="preserve">
+    <value>Dodaj nov zapis</value>
+  </data>
+  <data name="TreeList_Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="TreeList_DialogClose" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="TreeList_Edit" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="TreeList_NoRecords" xml:space="preserve">
+    <value>Ni razpoložljivih podatkov.</value>
+  </data>
+  <data name="TreeList_Search" xml:space="preserve">
+    <value>Iskanje...</value>
+  </data>
+  <data name="TreeList_SelectAllRows" xml:space="preserve">
+    <value>Izberi vse vrstice</value>
+  </data>
+  <data name="TreeList_SelectRow" xml:space="preserve">
+    <value>Izberi vrstico</value>
+  </data>
+  <data name="TreeList_SortedAscending" xml:space="preserve">
+    <value>Razvrščeno naraščajoče</value>
+  </data>
+  <data name="TreeList_SortedDescending" xml:space="preserve">
+    <value>Razvrščeno padajoče</value>
+  </data>
+  <data name="TreeList_Update" xml:space="preserve">
+    <value>Posodobi</value>
+  </data>
+  <data name="Upload_Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="Upload_Clear" xml:space="preserve">
+    <value>Počisti</value>
+  </data>
+  <data name="Upload_DropZoneHint" xml:space="preserve">
+    <value>Povlecite datoteke sem in jih spustite za nalaganje</value>
+  </data>
+  <data name="Upload_FileStatusFailed" xml:space="preserve">
+    <value>Datoteke ni bilo mogoče naložiti.</value>
+  </data>
+  <data name="Upload_FileStatusUploaded" xml:space="preserve">
+    <value>Datoteka uspešno naložena.</value>
+  </data>
+  <data name="Upload_HeaderStatusUploaded" xml:space="preserve">
+    <value>Končano</value>
+  </data>
+  <data name="Upload_HeaderStatusUploading" xml:space="preserve">
+    <value>Nalaganje ...</value>
+  </data>
+  <data name="Upload_InvalidFileExtension" xml:space="preserve">
+    <value>Vrsta datoteke ni dovoljena.</value>
+  </data>
+  <data name="Upload_InvalidMaxFileSize" xml:space="preserve">
+    <value>Datoteka je prevelika.</value>
+  </data>
+  <data name="Upload_InvalidMinFileSize" xml:space="preserve">
+    <value>Datoteka je premajhna.</value>
+  </data>
+  <data name="Upload_Pause" xml:space="preserve">
+    <value>Zaustavi</value>
+  </data>
+  <data name="Upload_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="Upload_Resume" xml:space="preserve">
+    <value>Nadaljuj</value>
+  </data>
+  <data name="Upload_Retry" xml:space="preserve">
+    <value>Poskusi znova</value>
+  </data>
+  <data name="Upload_SelectedFilesAriaLabel" xml:space="preserve">
+    <value>{0} datotek(e) {1}. Za krmarjenje pritisnite puščico dol.</value>
+  </data>
+  <data name="Upload_SelectedState" xml:space="preserve">
+    <value>izbrano</value>
+  </data>
+  <data name="Upload_SelectFiles" xml:space="preserve">
+    <value>Izberi datoteke...</value>
+  </data>
+  <data name="Upload_UploadedState" xml:space="preserve">
+    <value>naloženo</value>
+  </data>
+  <data name="Upload_UploadFiles" xml:space="preserve">
+    <value>Naloži</value>
+  </data>
+  <data name="Validation_InvalidField" xml:space="preserve">
+    <value>{0} ni veljavno.</value>
+  </data>
+  <data name="Wizard_Done" xml:space="preserve">
+    <value>Končaj</value>
+  </data>
+  <data name="Wizard_Next" xml:space="preserve">
+    <value>Naprej</value>
+  </data>
+  <data name="Wizard_Pager" xml:space="preserve">
+    <value>Korak {0} od {1}</value>
+  </data>
+  <data name="Wizard_Previous" xml:space="preserve">
+    <value>Nazaj</value>
+  </data>
+</root>
