@@ -4,6 +4,14 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>Telerik.Blazor.UI</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Flatten culture folders so satellite assemblies use base name TelerikMessages -->
+    <EmbeddedResource Include="..\Messages\**\*.resx">
+      <Link>Messages/%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+  </ItemGroup>
 
 </Project>
