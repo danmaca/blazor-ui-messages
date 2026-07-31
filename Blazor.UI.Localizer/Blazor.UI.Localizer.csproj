@@ -9,7 +9,7 @@
     <!-- NuGet package -->
     <IsPackable>true</IsPackable>
     <PackageId>Blazor.UI.Localizer</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>Daniel Macek</Authors>
     <Company>Daniel Macek</Company>
     <Description>Compiled localization library with satellite assemblies for Telerik UI for Blazor community message translations.</Description>
@@ -30,7 +30,8 @@
 
   <ItemGroup>
     <!-- Flatten culture folders so satellite assemblies use base name TelerikMessages -->
-    <EmbeddedResource Include="..\Messages\**\*.resx">
+    <EmbeddedResource Include="..\Messages\**\*.resx"
+                      Exclude="..\Messages\da-DK\**;..\Messages\nl-BE\**;..\Messages\pt-BR\**;..\Messages\zh-CN\**;..\Messages\fa-IR\**">
       <Link>Messages/%(Filename)%(Extension)</Link>
     </EmbeddedResource>
   </ItemGroup>

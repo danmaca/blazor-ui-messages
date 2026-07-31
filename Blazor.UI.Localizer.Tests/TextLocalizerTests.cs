@@ -20,15 +20,13 @@ public sealed class TextLocalizerTests : IDisposable
 
 	[Theory]
 	[InlineData("cs-CZ", "Aggregate_Average", "Průměr")]
+	[InlineData("cs", "Aggregate_Average", "Průměr")]
+	[InlineData("cs", "Filter_And", "A")]
 	[InlineData("de-DE", "Aggregate_Average", "Durchschnitt")]
+	[InlineData("de", "Aggregate_Average", "Durchschnitt")]
 	[InlineData("fr-FR", "Aggregate_Average", "Moyenne")]
-	[InlineData("da-DK", "Aggregate_Average", "Gennemsnit")]
 	[InlineData("it-IT", "Aggregate_Average", "Media")]
-	[InlineData("nl-BE", "Aggregate_Average", "Gemiddeld")]
-	[InlineData("pt-BR", "Aggregate_Average", "Média")]
 	[InlineData("hr-HR", "Aggregate_Average", "Prosjek")]
-	[InlineData("zh-CN", "Aggregate_Average", "平均")]
-	[InlineData("fa-IR", "Aggregate_Average", "میانگین")]
 	[InlineData("sl-SI", "Aggregate_Average", "Povprečje")]
 	[InlineData("el-GR", "Aggregate_Average", "Μέσος όρος")]
 	[InlineData("pl-PL", "Aggregate_Average", "Średnia")]
@@ -43,23 +41,43 @@ public sealed class TextLocalizerTests : IDisposable
 	}
 
 	[Fact]
-	public void GetText_FallsBackToKey_WhenCultureHasNoResources()
+	public void GetText_ReturnsNull_WhenCultureHasNoResources()
 	{
 		CultureInfo.CurrentUICulture = new CultureInfo("en-US");
 
 		var actual = TextLocalizer.GetText("Aggregate_Average");
 
-		Assert.Equal("Aggregate_Average", actual);
+		Assert.Null(actual);
 	}
 
 	[Fact]
-	public void GetText_FallsBackToKey_WhenKeyIsMissing()
+	public void GetText_ReturnsNull_WhenNeutralCultureHasNoResources()
+	{
+		CultureInfo.CurrentUICulture = new CultureInfo("en");
+
+		var actual = TextLocalizer.GetText("Aggregate_Average");
+
+		Assert.Null(actual);
+	}
+
+	[Fact]
+	public void GetText_ReturnsNull_WhenKeyIsMissing()
 	{
 		CultureInfo.CurrentUICulture = new CultureInfo("cs-CZ");
 
 		var actual = TextLocalizer.GetText("Key_That_Does_Not_Exist");
 
-		Assert.Equal("Key_That_Does_Not_Exist", actual);
+		Assert.Null(actual);
+	}
+
+	[Fact]
+	public void GetText_ReturnsNull_WhenKeyIsMissing_ForNeutralCulture()
+	{
+		CultureInfo.CurrentUICulture = new CultureInfo("cs");
+
+		var actual = TextLocalizer.GetText("Key_That_Does_Not_Exist");
+
+		Assert.Null(actual);
 	}
 
 	[Theory]

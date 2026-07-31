@@ -11,7 +11,7 @@ namespace Telerik.Blazor.UI
 		private static readonly ResourceManager ResourceManager =
 			new(ResourceBaseName, typeof(TextLocalizer).Assembly);
 
-		// "{culture}|{key}" → resolved string (or key as fallback)
+		// "{culture}|{key}" → resolved string (null when not found)
 		private static readonly ConcurrentDictionary<string, string?> Cache = new(StringComparer.Ordinal);
 
 		public static string? GetText(string key)
@@ -30,7 +30,28 @@ namespace Telerik.Blazor.UI
 		public static void ClearCache() => Cache.Clear();
 
 		// Walk culture → parents with tryParents: false so missing neutral .resx does not throw.
+		// Neutral cultures (e.g. "cs") also try CreateSpecificCulture (e.g. "cs-CZ").
 		private static string? Resolve(string key, CultureInfo culture)
+		{
+			var value = TryGet(key, culture);
+			if (value is not null)
+				return value;
+
+			if (culture.IsNeutralCulture)
+			{
+				var specific = CultureInfo.CreateSpecificCulture(culture.Name);
+				if (!Equals(specific, culture) && !Equals(specific, CultureInfo.InvariantCulture))
+				{
+					value = TryGet(key, specific);
+					if (value is not null)
+						return value;
+				}
+			}
+
+			return null;
+		}
+
+		private static string? TryGet(string key, CultureInfo culture)
 		{
 			for (var current = culture;
 			     current != null && !Equals(current, CultureInfo.InvariantCulture);

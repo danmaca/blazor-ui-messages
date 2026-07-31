@@ -19,11 +19,11 @@ var text = TextLocalizer.GetText("Grid_Create");
 
 Set the UI culture before resolving texts (for example in middleware, `CultureInfo.DefaultThreadCurrentUICulture`, or Blazor localization).
 
-If a key is missing for the current culture (and its parents), `GetText` returns the key itself.
+If a key is missing for the current culture (and its parents), `GetText` returns `null`.
 
 ## Supported cultures
 
-Satellite resources are included for: `cs-CZ`, `da-DK`, `de-DE`, `el-GR`, `fa-IR`, `fr-FR`, `hr-HR`, `it-IT`, `nl-BE`, `pl-PL`, `pt-BR`, `ru-RU`, `sk-SK`, `sl-SI`, `zh-CN`.
+Satellite resources are included for: `cs-CZ`, `de-DE`, `el-GR`, `fr-FR`, `hr-HR`, `it-IT`, `pl-PL`, `ru-RU`, `sk-SK`, `sl-SI`.
 
 ## License
 
