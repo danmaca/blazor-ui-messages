@@ -1,5 +1,6 @@
 ﻿using System.Collections.Concurrent;
 using System.Globalization;
+using System.Reflection;
 using System.Resources;
 
 namespace Telerik.Blazor.UI
@@ -8,8 +9,10 @@ namespace Telerik.Blazor.UI
 	{
 		private const string ResourceBaseName = "Telerik.Blazor.UI.Messages.TelerikMessages";
 
-		private static readonly ResourceManager ResourceManager =
-			new(ResourceBaseName, typeof(TextLocalizer).Assembly);
+		private static readonly Assembly ResourceAssembly = typeof(TextLocalizer).Assembly;
+
+		// Culture-specific .resources are embedded in the main DLL (no satellites).
+		private static readonly ConcurrentDictionary<string, ResourceSet?> ResourceSets = new(StringComparer.OrdinalIgnoreCase);
 
 		// "{culture}|{key}" → resolved string (null when not found)
 		private static readonly ConcurrentDictionary<string, string?> Cache = new(StringComparer.Ordinal);
@@ -27,10 +30,13 @@ namespace Telerik.Blazor.UI
 			}, (Key: key, Culture: culture));
 		}
 
-		public static void ClearCache() => Cache.Clear();
+		public static void ClearCache()
+		{
+			Cache.Clear();
+			ResourceSets.Clear();
+		}
 
-		// Walk culture → parents with tryParents: false so missing neutral .resx does not throw.
-		// Neutral cultures (e.g. "cs") also try CreateSpecificCulture (e.g. "cs-CZ").
+		// Walk culture → parents. Neutral cultures (e.g. "cs") also try CreateSpecificCulture (e.g. "cs-CZ").
 		private static string? Resolve(string key, CultureInfo culture)
 		{
 			var value = TryGet(key, culture);
@@ -57,13 +63,26 @@ namespace Telerik.Blazor.UI
 			     current != null && !Equals(current, CultureInfo.InvariantCulture);
 			     current = current.Parent)
 			{
-				var set = ResourceManager.GetResourceSet(current, createIfNotExists: true, tryParents: false);
+				var set = GetResourceSet(current);
 				var value = set?.GetString(key);
 				if (value is not null)
 					return value;
 			}
 
 			return null;
+		}
+
+		private static ResourceSet? GetResourceSet(CultureInfo culture)
+		{
+			if (string.IsNullOrEmpty(culture.Name))
+				return null;
+
+			return ResourceSets.GetOrAdd(culture.Name, static name =>
+			{
+				var resourceName = ResourceBaseName + "." + name + ".resources";
+				var stream = ResourceAssembly.GetManifestResourceStream(resourceName);
+				return stream is null ? null : new ResourceSet(stream);
+			});
 		}
 	}
 }

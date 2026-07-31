@@ -9,10 +9,10 @@
     <!-- NuGet package -->
     <IsPackable>true</IsPackable>
     <PackageId>Blazor.UI.Localizer</PackageId>
-    <Version>1.2.0</Version>
+    <Version>1.4.0</Version>
     <Authors>Daniel Macek</Authors>
     <Company>Daniel Macek</Company>
-    <Description>Compiled localization library with satellite assemblies for Telerik UI for Blazor community message translations.</Description>
+    <Description>Compiled localization library with culture resources embedded in the main assembly for Telerik UI for Blazor community message translations.</Description>
     <PackageTags>blazor;telerik;localization;i18n;resx;messages</PackageTags>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/danmaca/blazor-ui-messages</PackageProjectUrl>
@@ -29,9 +29,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Flatten culture folders so satellite assemblies use base name TelerikMessages -->
+    <!--
+      Flatten culture folders and keep culture in the resource name (TelerikMessages.cs-CZ.resx).
+      WithCulture=false embeds culture resources into the main DLL instead of satellite assemblies,
+      which avoids Blazor WASM lazy-load / cold-start failures for *.resources.dll.
+    -->
     <EmbeddedResource Include="..\Messages\**\*.resx"
-                      Exclude="..\Messages\da-DK\**;..\Messages\nl-BE\**;..\Messages\pt-BR\**;..\Messages\zh-CN\**;..\Messages\fa-IR\**">
+                      Exclude="..\Messages\da-DK\**;..\Messages\nl-BE\**;..\Messages\pt-BR\**;..\Messages\zh-CN\**;..\Messages\fa-IR\**"
+                      WithCulture="false">
       <Link>Messages/%(Filename)%(Extension)</Link>
     </EmbeddedResource>
   </ItemGroup>

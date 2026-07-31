@@ -1,6 +1,6 @@
 # Blazor.UI.Localizer
 
-Compiled localization library for [Telerik UI for Blazor](https://www.telerik.com/blazor-ui) message keys. Ships satellite assemblies for community-contributed cultures.
+Compiled localization library for [Telerik UI for Blazor](https://www.telerik.com/blazor-ui) message keys. Culture resources are embedded in the main assembly (no satellite `*.resources.dll`), which works reliably with Blazor WebAssembly cold starts.
 
 ## Install
 
@@ -23,7 +23,7 @@ If a key is missing for the current culture (and its parents), `GetText` returns
 
 ## Supported cultures
 
-Satellite resources are included for: `cs-CZ`, `de-DE`, `el-GR`, `fr-FR`, `hr-HR`, `it-IT`, `pl-PL`, `ru-RU`, `sk-SK`, `sl-SI`.
+Embedded resources are included for: `cs-CZ`, `de-DE`, `el-GR`, `fr-FR`, `hr-HR`, `it-IT`, `pl-PL`, `ru-RU`, `sk-SK`, `sl-SI`.
 
 ## License
 
